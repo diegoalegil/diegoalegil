@@ -9,6 +9,15 @@
 🧠 Clean Code • ⚙️ Lógica & Backend • 🌍 Futuro Full Stack
 </p>
 
+<p align="center">
+  <a href="mailto:diegogildam@gmail.com">
+    <img src="https://img.shields.io/badge/Email-diegogildam%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/diegoalegil">
+    <img src="https://img.shields.io/badge/GitHub-diegoalegil-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
 ---
 
 ## 🧠 Sobre mí
