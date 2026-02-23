@@ -2,7 +2,7 @@
 <h3 align="center">💻 Desarrollador de Software en evolución | Construyendo mi futuro con código</h3>
 
 <p align="center">
-  <img src="https://github.com/diegoalegil.png" width="200" style="border-radius: 50%;" />
+  <img src="https://github.com/diego.JPEG" width="200" style="border-radius: 50%;" />
 </p>
 
 <p align="center">
