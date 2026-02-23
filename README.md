@@ -11,10 +11,11 @@
 
 <p align="center">
   <a href="mailto:diegogildam@gmail.com">
-    <img src="https://img.shields.io/badge/Email-diegogildam%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.icons8.com/color/48/gmail-new.png" width="35"/>
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/diegoalegil">
-    <img src="https://img.shields.io/badge/GitHub-diegoalegil-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" width="35"/>
   </a>
 </p>
 
