@@ -6,7 +6,9 @@
 </p>
 
 <p align="center">
-🧠 Clean Code • ⚙️ Lógica & Backend • 🌍 Futuro Full Stack
+🧠 Entrenando lógica cada día
+⚙️ Construyendo backend sólido
+🌍 Expandiendo hacia Full Stack
 </p>
 
 <p align="center">
@@ -24,11 +26,11 @@
 ## 🧠 Sobre mí
 
 🎓 Estudiante de **Desarrollo de Aplicaciones Multiplataforma (DAM)**  
-🔥 Enfocado en fortalecer mi base en programación y bases de datos  
-📈 Mejorando constantemente mi lógica y pensamiento estructurado  
+🔥 Me apasiona entender cómo y por qué funcionan las cosas 
+📈 En constante mejora de mi lógica y capacidad de análisis   
 
-No solo escribo código.  
-Entreno mi mente para pensar como ingeniero.
+Mi objetivo no es que el código funcione simplemente.
+Busco entenderlo, mejorarlo y optimizarlo.
 
 ---
 
@@ -36,7 +38,8 @@ Entreno mi mente para pensar como ingeniero.
 
 - 🧱 Java y Programación Orientada a Objetos  
 - 🗄️ Diseño y consultas SQL  
-- 🌐 Estructura web con HTML  
+- 🌐 Estructura web con HTML y CCS
+- 🌍 Inglés – Nivel C1 (Certificado)
 
 ---
 
