@@ -2,7 +2,7 @@
 <h3 align="center">💻 Desarrollador de Software en evolución | Construyendo mi futuro con código</h3>
 
 <p align="center">
-  <img src="images/banner.png" width="200" style="border-radius: 50%;" />
+  <img src="images/banner.png" width="800" style="border-radius: 50%;" />
 </p>
 
 <p align="center">
