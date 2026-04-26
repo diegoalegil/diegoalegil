@@ -39,12 +39,15 @@ Actualmente trabajando con bases de datos distribuidas, APIs REST y Java orienta
 
 ## Proyectos destacados
 
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| [TinerPay](https://github.com/diegoalegil/TinerPay) | Simulación de pagos distribuidos con cluster de 3 nodos CockroachDB y API REST | Node.js · CockroachDB · Express |
-| [postgresql-avanzado](https://github.com/diegoalegil/postgresql-avanzado) | PL/pgSQL, transacciones, triggers y backups en PostgreSQL | PostgreSQL |
-| [gimnasio-app](https://github.com/diegoalegil/gimnasio-app) | Gestión de gimnasio con POO | Java |
-| [guaya_website](https://github.com/diegoalegil/guaya_website) | Sitio web para una barbería | HTML · CSS |
+<div align="center">
+
+[![TinerPay](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=TinerPay&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/TinerPay)
+[![postgresql-avanzado](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=postgresql-avanzado&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/postgresql-avanzado)
+
+[![gimnasio-app](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=gimnasio-app&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/gimnasio-app)
+[![guaya_website](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=guaya_website&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/guaya_website)
+
+</div>
 
 ---
 
