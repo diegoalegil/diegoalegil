@@ -1,8 +1,6 @@
 <div align="center">
 
-# Diego Gil
-
-**Estudiante DAM · Tenerife**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=6FBBF7&center=true&vCenter=true&width=435&lines=Diego+Gil;Estudiante+DAM+%C2%B7+Tenerife)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-diegoalegil.github.io-black?style=flat-square&logo=github)](https://diegoalegil.github.io/)
 [![Email](https://img.shields.io/badge/Email-diegogildam@gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:diegogildam@gmail.com)
@@ -58,12 +56,12 @@ Actualmente trabajando con bases de datos distribuidas, APIs REST y Java orienta
 ![Stats](https://github-readme-stats.vercel.app/api?username=diegoalegil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=diegoalegil&layout=compact&theme=tokyonight&hide_border=true)
 
+![Streak](https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es)
+
 </div>
 
 ---
 
 <div align="center">
-
-*"Ser creativo no es una opción"*
-
+<sub><i>"Ser creativo no es una opción"</i></sub>
 </div>
