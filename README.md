@@ -1,67 +1,239 @@
-<div align="center">
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+  README de @diegoalegil  ·  paleta tokyonight + acento rojo CTA
+  ───────────────────────────────────────────────────────────────────────────
+  ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
+   ✏️ HERO          → frases del typing SVG
+   ✏️ BIO           → bio principal y bio extendida (<details>)
+   ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
+   ✏️ PROYECTOS     → tabla 2x2 (rotar cuando cambien tus repos top)
+   ✏️ CIERRE        → frase final
+═══════════════════════════════════════════════════════════════════════════════
+-->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=6FBBF7&center=true&vCenter=true&width=435&lines=Diego+Gil;Estudiante+DAM+%C2%B7+Tenerife)](https://git.io/typing-svg)
+<!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
+<p align="center">
+  <img src="images/banner.png" alt="Diego Gil · banner" width="100%" />
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-diegoalegil.github.io-black?style=flat-square&logo=github)](https://diegoalegil.github.io/)
-[![Email](https://img.shields.io/badge/Email-diegogildam@gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:diegogildam@gmail.com)
+<!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
+<p align="center">
+  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat&logoSize=2vh&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
+  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat&logoSize=2vh&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
+  <img src="https://komarev.com/ghpvc/?username=diegoalegil&style=flat&label=visitas&labelColor=1a1b27&color=f7768e" alt="profile views" />
+</p>
 
-</div>
+<br />
 
----
-
-Estudiante de **Desarrollo de Aplicaciones Multiplataforma** con foco en backend, bases de datos y web. Me interesa entender cómo funcionan los sistemas por dentro — no solo hacer que funcionen.
-
-Actualmente trabajando con bases de datos distribuidas, APIs REST y Java orientado a objetos.
-
----
-
-## Stack
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## Proyectos destacados
-
-<div align="center">
-
-[![TinerPay](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=TinerPay&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/TinerPay)
-[![postgresql-avanzado](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=postgresql-avanzado&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/postgresql-avanzado)
-
-[![gimnasio-app](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=gimnasio-app&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/gimnasio-app)
-[![guaya_website](https://github-readme-stats.vercel.app/api/pin/?username=diegoalegil&repo=guaya_website&theme=tokyonight&hide_border=true)](https://github.com/diegoalegil/guaya_website)
-
-</div>
-
----
-
-## Estadísticas
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=diegoalegil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=diegoalegil&layout=compact&theme=tokyonight&hide_border=true)
-
-![Streak](https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es)
-
-</div>
+<!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
+<table align="center" border="0">
+  <tr>
+    <td width="55%" valign="middle">
+      <h1>Hola, soy Diego 👋</h1>
+      <h3>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</h3>
+      <br />
+      <a href="https://diegoalegil.github.io/">
+        <img src="https://img.shields.io/badge/📄_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
+      </a>
+      <a href="mailto:diegogildam@gmail.com">
+        <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
+      </a>
+    </td>
+    <td width="45%" valign="middle" align="center">
+      <!-- ✏️ Para cambiar las frases del typing, edita el parámetro lines= (separadas por ;) -->
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=380&height=120&lines=Diego+Gil;Estudiante+DAM+%C2%B7+Tenerife;Backend+%26+bases+de+datos;Dedicaci%C3%B3n+%3E+talento;Entender+%3E+terminar" alt="typing" />
+    </td>
+  </tr>
+</table>
 
 ---
 
+<!-- ─── BIO  ✏️ ──────────────────────────────────────────────────────────── -->
+## 🧠 Sobre mí
+
+> Programar es la excusa. Lo que me engancha es entender **por qué algo funciona** — o por qué se rompe a las 3 de la mañana.
+
+<details>
+  <summary><b>Saber más</b></summary>
+  <br />
+
+  Estudio **Desarrollo de Aplicaciones Multiplataforma** en Tenerife. Mi interés real está en **backend, bases de datos y arquitectura** — no solo en hacer que funcione, sino en entender por qué funciona.
+
+  No soy el más rápido de la clase, pero suelo ser el último en irse del problema. Por eso prefiero un proyecto que entiendo a fondo antes que diez que entiendo por encima.
+
+  Ahora mismo trasteando con **sistemas distribuidos** (CockroachDB), **PL/pgSQL avanzado** y **APIs REST** en Java y Node.js.
+</details>
+
+---
+
+## 🛠️ Stack
+
+<table align="center">
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">⚙️ Backend</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🗄️ Bases de datos</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">🌐 Web</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">🧰 Tooling</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,nodejs,php,postgres,mysql,js,html,css,wordpress,linux,git,github&perline=12" />
+  </a>
+</p>
+
+---
+
+<!-- ─── APRENDIENDO  ✏️ ──────────────────────────────────────────────────── -->
+## 🌱 Aprendiendo ahora
+
+<table align="center">
+  <tr>
+    <td>🐘 <b>PL/pgSQL avanzado</b><br/><sub>triggers, procedimientos, ACID</sub></td>
+    <td>🌍 <b>Sistemas distribuidos</b><br/><sub>réplicas y consenso con CockroachDB</sub></td>
+    <td>🔌 <b>APIs REST</b><br/><sub>arquitectura y diseño en Java / Node.js</sub></td>
+  </tr>
+</table>
+
+---
+
+<!-- ─── PROYECTOS  ✏️ ────────────────────────────────────────────────────── -->
+## 💾 Proyectos destacados
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">💳 TinerPay</h3>
+      <p align="center">
+        Demo de un <b>sistema de pagos distribuido</b>. Replicación, consistencia y transacciones en una base de datos pensada para no caerse.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/diegoalegil/TinerPay"><b>Ver código →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🐘 postgresql-avanzado</h3>
+      <p align="center">
+        PL/pgSQL real: <b>triggers, procedimientos almacenados, transacciones ACID</b> y estrategias de backup. Centrado en integridad y concurrencia.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/PL%2FpgSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/diegoalegil/postgresql-avanzado"><b>Ver código →</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🏋️ gimnasio-app</h3>
+      <p align="center">
+        Aplicación de <b>gestión de gimnasio</b> en Java. POO aplicada a un dominio real: socios, rutinas, pagos.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/POO-ED8B00?style=flat-square" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/diegoalegil/gimnasio-app"><b>Ver código →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🏎️ miniature-car-shop</h3>
+      <p align="center">
+        Tienda <b>WooCommerce premium</b> de miniaturas con diseño oscuro, animaciones y módulos JS/PHP propios sobre WordPress.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/diegoalegil/miniature-car-shop"><b>Ver código →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=diegoalegil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&card_width=450" />
+  <img height="180" src="https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegoalegil&layout=donut&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" />
+</p>
+
+<!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
+  Para que aparezca, necesitas el workflow .github/workflows/snake.yml (ya incluido).
+  Tras hacer push a main, ejecuta el workflow manualmente desde la pestaña Actions
+  la primera vez. Después se regenera automáticamente cada 24h.
+─────────────────────────────────────────────────────────────────────────── -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" alt="snake animation" />
+</p>
+
+---
+
+## 🏆 Trofeos
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=diegoalegil&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
+  </a>
+</p>
+
+---
+
+<!-- ─── CIERRE  ✏️ ───────────────────────────────────────────────────────── -->
 <div align="center">
-<sub><i>"Ser creativo no es una opción"</i></sub>
+  <br />
+  <i>"No me considero un programador con talento.<br/>Soy un dedicado que casualmente programa."</i>
+  <br /><br />
+  <a href="mailto:diegogildam@gmail.com">📨 diegogildam@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://diegoalegil.github.io/">🌐 diegoalegil.github.io</a>
 </div>
