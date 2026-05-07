@@ -13,7 +13,7 @@
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="images/banner.png" alt="Diego Gil · banner" width="100%" />
+  <img src="images/banner.png" alt="Diego Gil · banner" width="900" />
 </p>
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
