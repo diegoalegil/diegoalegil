@@ -129,6 +129,41 @@
 
 ---
 
+<!-- ─── ESTOY TRABAJANDO EN  ✏️ ──────────────────────────────────────────── -->
+## 🚧 Estoy trabajando en
+
+<table align="center">
+  <tr>
+    <td width="35%" valign="middle" align="center">
+      <img src="images/reze.png" alt="AnimeShowdown" width="100%" />
+    </td>
+    <td width="65%" valign="top">
+      <h3>⚔️ AnimeShowdown</h3>
+      <p>
+        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos llegan tirados directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
+      </p>
+      <p>
+        <b>API REST</b> en Java + Spring Boot con capas <code>controller → service → repository → model</code>, <b>auth con JWT</b> y un <b>frontend desacoplado</b> en HTML/CSS/JS puro consumiendo la API con <code>fetch()</code>.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+        <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jikan_API-2E51A2?style=flat-square" />
+      </p>
+      <p>
+        <a href="https://github.com/diegoalegil/AnimeShowdown"><b>Ver repo →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 <!-- ─── PROYECTOS  ✏️ ────────────────────────────────────────────────────── -->
 ## 💾 Proyectos destacados
 
