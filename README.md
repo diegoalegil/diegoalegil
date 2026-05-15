@@ -13,7 +13,7 @@
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="images/banner.png" alt="Diego Gil · banner" width="900" />
+  <img src="images/banner.jpg" alt="Diego Gil · banner" width="900" />
 </p>
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
@@ -135,7 +135,7 @@
 <table align="center">
   <tr>
     <td width="35%" valign="middle" align="center">
-      <img src="images/reze.png" alt="AnimeShowdown" width="100%" />
+      <img src="images/reze.jpg" alt="AnimeShowdown" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
