@@ -13,7 +13,7 @@
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="images/banner.png" alt="Diego Gil · banner" width="900" />
+  <img src="images/banner.jpg" alt="Diego Gil · banner" width="900" />
 </p>
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
@@ -132,15 +132,47 @@
 <!-- ─── ESTOY TRABAJANDO EN  ✏️ ──────────────────────────────────────────── -->
 ## 🚧 Estoy trabajando en
 
+<!-- ── Proyecto 1: prácticas en la ULL ─────────────────────────────────── -->
 <table align="center">
   <tr>
     <td width="35%" valign="middle" align="center">
-      <img src="images/reze.png" alt="AnimeShowdown" width="100%" />
+      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="100%" />
+    </td>
+    <td width="65%" valign="top">
+      <h3>📄 Sistema de facturas — Canarias Convive</h3>
+      <p>
+        <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
+      </p>
+      <p>
+        <b>Backend</b> en Google Apps Script sobre Sheet + Drive, con <b>7 validaciones</b> automáticas (importes, fechas, CIF/NIF, duplicados) y status por color. <b>Frontend público</b> en Next.js + Vercel para registrar facturas desde el móvil, instalable como app en iPhone y Mac.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p>
+        <sub>🏛️ Proyecto interno · en validación final antes de pasar a producción</sub>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- ── Proyecto 2: AnimeShowdown ───────────────────────────────────────── -->
+<table align="center">
+  <tr>
+    <td width="35%" valign="middle" align="center">
+      <img src="images/reze.jpg" alt="AnimeShowdown" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
       <p>
-        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos llegan tirados directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
+        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos vienen directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
       </p>
       <p>
         <b>API REST</b> en Java + Spring Boot con capas <code>controller → service → repository → model</code>, <b>auth con JWT</b> y un <b>frontend desacoplado</b> en HTML/CSS/JS puro consumiendo la API con <code>fetch()</code>.
@@ -260,6 +292,20 @@
     <img src="https://github-profile-trophy.vercel.app/?username=diegoalegil&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&hide=Stars,Issues,PullRequest" />
   </a>
 </p>
+
+---
+
+<!-- ─── MANTENIMIENTO ────────────────────────────────────────────────────── -->
+<details>
+  <summary><b>🛠 Mantenimiento de este README</b></summary>
+  <br />
+
+  - Las zonas editables están marcadas con `✏️` en los comentarios HTML.
+  - La animación de la serpiente la genera [`.github/workflows/snake.yml`](.github/workflows/snake.yml) cada noche y se publica en la rama `output`. Si nunca se ha ejecutado, lánzalo manualmente desde **Actions → Generate Snake animation → Run workflow**.
+  - Las imágenes viven en `images/`. Si añades una nueva, manténla por debajo de ~500 KB (banner como mucho 1600 px de ancho, ilustraciones pequeñas a 800 px basta).
+  - Las acciones de terceros del workflow están pineadas por SHA por seguridad de supply chain — si actualizas una versión, actualiza también el SHA y el comentario del tag.
+
+</details>
 
 ---
 
