@@ -135,10 +135,10 @@
 <!-- ── Proyecto 1: prácticas en la ULL ─────────────────────────────────── -->
 <table align="center">
   <tr>
-    <td width="35%" valign="middle" align="center">
-      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="100%" />
+    <td width="30%" valign="middle" align="center">
+      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
     </td>
-    <td width="65%" valign="top">
+    <td width="70%" valign="middle">
       <h3>📄 Sistema de facturas — Canarias Convive</h3>
       <p>
         <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
