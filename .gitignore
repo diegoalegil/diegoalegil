@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+Icon?
+
+# Windows
+Thumbs.db
+
+# Editores
+*.swp
+*~
+
+# Claude Code (worktrees y estado local)
+.claude/
