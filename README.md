@@ -295,19 +295,16 @@
 
 ---
 
-<!-- ─── MANTENIMIENTO ────────────────────────────────────────────────────── -->
-<details>
-  <summary><b>🛠 Mantenimiento de este README</b></summary>
-  <br />
-
-  - Las zonas editables están marcadas con `✏️` en los comentarios HTML.
-  - La animación de la serpiente la genera [`.github/workflows/snake.yml`](.github/workflows/snake.yml) cada noche y se publica en la rama `output`. Si nunca se ha ejecutado, lánzalo manualmente desde **Actions → Generate Snake animation → Run workflow**.
-  - Las imágenes viven en `images/`. Si añades una nueva, manténla por debajo de ~500 KB (banner como mucho 1600 px de ancho, ilustraciones pequeñas a 800 px basta).
-  - Las acciones de terceros del workflow están pineadas por SHA por seguridad de supply chain — si actualizas una versión, actualiza también el SHA y el comentario del tag.
-
-</details>
-
----
+<!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
+  - Zonas editables marcadas con ✏️ en los comentarios HTML.
+  - La animación de la serpiente la genera .github/workflows/snake.yml cada
+    noche y se publica en la rama output. Si nunca se ha ejecutado, lánzalo
+    manualmente desde Actions → Generate Snake animation → Run workflow.
+  - Las imágenes viven en images/. Mantén cualquier nueva por debajo de
+    ~500 KB (banner máx 1600 px de ancho, ilustraciones pequeñas a 800 px).
+  - Acciones de terceros del workflow pineadas por SHA por seguridad de
+    supply chain — si actualizas una versión, actualiza también el SHA.
+─────────────────────────────────────────────────────────────────────────── -->
 
 <!-- ─── CIERRE  ✏️ ───────────────────────────────────────────────────────── -->
 <div align="center">
