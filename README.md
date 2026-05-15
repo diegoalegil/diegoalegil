@@ -132,6 +132,44 @@
 <!-- ─── ESTOY TRABAJANDO EN  ✏️ ──────────────────────────────────────────── -->
 ## 🚧 Estoy trabajando en
 
+<!-- ── Proyecto 1: prácticas en la ULL ─────────────────────────────────── -->
+<table align="center">
+  <tr>
+    <td width="35%" valign="middle" align="center">
+      <p>
+        <img src="https://img.shields.io/badge/EN_PR%C3%81CTICAS-CC0808?style=for-the-badge&labelColor=1a1b27" alt="En prácticas" />
+      </p>
+      <h1>🧾</h1>
+      <p>
+        <sub><b>FGULL · Canarias Convive</b></sub>
+      </p>
+    </td>
+    <td width="65%" valign="top">
+      <h3>📄 Sistema de facturas — Canarias Convive</h3>
+      <p>
+        <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
+      </p>
+      <p>
+        <b>Backend</b> en Google Apps Script sobre Sheet + Drive, con <b>7 validaciones</b> automáticas (importes, fechas, CIF/NIF, duplicados) y status por color. <b>Frontend público</b> en Next.js + Vercel para registrar facturas desde el móvil, instalable como app en iPhone y Mac.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p>
+        <sub>🏛️ Proyecto interno · en validación final antes de pasar a producción</sub>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- ── Proyecto 2: AnimeShowdown ───────────────────────────────────────── -->
 <table align="center">
   <tr>
     <td width="35%" valign="middle" align="center">
