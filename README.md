@@ -136,13 +136,7 @@
 <table align="center">
   <tr>
     <td width="35%" valign="middle" align="center">
-      <p>
-        <img src="https://img.shields.io/badge/EN_PR%C3%81CTICAS-CC0808?style=for-the-badge&labelColor=1a1b27" alt="En prácticas" />
-      </p>
-      <h1>🧾</h1>
-      <p>
-        <sub><b>FGULL · Canarias Convive</b></sub>
-      </p>
+      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="100%" />
     </td>
     <td width="65%" valign="top">
       <h3>📄 Sistema de facturas — Canarias Convive</h3>
