@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+Icon?
+
+# Windows
+Thumbs.db
+
+# Editores
+*.swp
+*~
+
+# Worktrees y estado local de herramientas de desarrollo
