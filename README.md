@@ -140,7 +140,7 @@
     <td width="65%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
       <p>
-        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos llegan tirados directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
+        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos vienen directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
       </p>
       <p>
         <b>API REST</b> en Java + Spring Boot con capas <code>controller → service → repository → model</code>, <b>auth con JWT</b> y un <b>frontend desacoplado</b> en HTML/CSS/JS puro consumiendo la API con <code>fetch()</code>.
@@ -260,6 +260,20 @@
     <img src="https://github-profile-trophy.vercel.app/?username=diegoalegil&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&hide=Stars,Issues,PullRequest" />
   </a>
 </p>
+
+---
+
+<!-- ─── MANTENIMIENTO ────────────────────────────────────────────────────── -->
+<details>
+  <summary><b>🛠 Mantenimiento de este README</b></summary>
+  <br />
+
+  - Las zonas editables están marcadas con `✏️` en los comentarios HTML.
+  - La animación de la serpiente la genera [`.github/workflows/snake.yml`](.github/workflows/snake.yml) cada noche y se publica en la rama `output`. Si nunca se ha ejecutado, lánzalo manualmente desde **Actions → Generate Snake animation → Run workflow**.
+  - Las imágenes viven en `images/`. Si añades una nueva, manténla por debajo de ~500 KB (banner como mucho 1600 px de ancho, ilustraciones pequeñas a 800 px basta).
+  - Las acciones de terceros del workflow están pineadas por SHA por seguridad de supply chain — si actualizas una versión, actualiza también el SHA y el comentario del tag.
+
+</details>
 
 ---
 
