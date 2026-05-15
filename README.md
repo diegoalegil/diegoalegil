@@ -136,7 +136,7 @@
 <table align="center">
   <tr>
     <td width="30%" valign="middle" align="center">
-      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
+      <img src="images/facturas-cancon-frontend.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
     </td>
     <td width="70%" valign="middle">
       <h3>📄 Sistema de facturas — Canarias Convive</h3>
