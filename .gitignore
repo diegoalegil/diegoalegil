@@ -9,5 +9,5 @@ Thumbs.db
 *.swp
 *~
 
-# Claude Code (worktrees y estado local)
+# Worktrees y estado local de herramientas de desarrollo
 .claude/
