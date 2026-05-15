@@ -135,10 +135,10 @@
 <!-- ── Proyecto 1: prácticas en la ULL ─────────────────────────────────── -->
 <table align="center">
   <tr>
-    <td width="35%" valign="middle" align="center">
-      <img src="images/facturas-cancon.jpg" alt="Facturas Canarias Convive · frontend" width="100%" />
+    <td width="30%" valign="middle" align="center">
+      <img src="images/facturas-cancon-frontend.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
     </td>
-    <td width="65%" valign="top">
+    <td width="70%" valign="middle">
       <h3>📄 Sistema de facturas — Canarias Convive</h3>
       <p>
         <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
@@ -295,19 +295,16 @@
 
 ---
 
-<!-- ─── MANTENIMIENTO ────────────────────────────────────────────────────── -->
-<details>
-  <summary><b>🛠 Mantenimiento de este README</b></summary>
-  <br />
-
-  - Las zonas editables están marcadas con `✏️` en los comentarios HTML.
-  - La animación de la serpiente la genera [`.github/workflows/snake.yml`](.github/workflows/snake.yml) cada noche y se publica en la rama `output`. Si nunca se ha ejecutado, lánzalo manualmente desde **Actions → Generate Snake animation → Run workflow**.
-  - Las imágenes viven en `images/`. Si añades una nueva, manténla por debajo de ~500 KB (banner como mucho 1600 px de ancho, ilustraciones pequeñas a 800 px basta).
-  - Las acciones de terceros del workflow están pineadas por SHA por seguridad de supply chain — si actualizas una versión, actualiza también el SHA y el comentario del tag.
-
-</details>
-
----
+<!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
+  - Zonas editables marcadas con ✏️ en los comentarios HTML.
+  - La animación de la serpiente la genera .github/workflows/snake.yml cada
+    noche y se publica en la rama output. Si nunca se ha ejecutado, lánzalo
+    manualmente desde Actions → Generate Snake animation → Run workflow.
+  - Las imágenes viven en images/. Mantén cualquier nueva por debajo de
+    ~500 KB (banner máx 1600 px de ancho, ilustraciones pequeñas a 800 px).
+  - Acciones de terceros del workflow pineadas por SHA por seguridad de
+    supply chain — si actualizas una versión, actualiza también el SHA.
+─────────────────────────────────────────────────────────────────────────── -->
 
 <!-- ─── CIERRE  ✏️ ───────────────────────────────────────────────────────── -->
 <div align="center">
