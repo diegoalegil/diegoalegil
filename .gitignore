@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+Icon?
+
+# Windows
+Thumbs.db
+
+# Editores
+*.swp
+*~
+
