@@ -3,7 +3,7 @@
   README de @diegoalegil  ·  paleta tokyonight + acento rojo CTA
   ───────────────────────────────────────────────────────────────────────────
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
-   ✏️ HERO          → frases del typing SVG
+   ✏️ HERO          → título, subtítulo y botones CTA
    ✏️ BIO           → bio principal y bio extendida (<details>)
    ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
    ✏️ TRABAJANDO    → proyecto activo paralelo (Canarias Convive)
@@ -28,25 +28,17 @@
 <br />
 
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
-<table align="center" border="0">
-  <tr>
-    <td width="55%" valign="middle">
-      <h1>Hola, soy Diego 👋</h1>
-      <h3>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</h3>
-      <br />
-      <a href="https://diegoalegil.github.io/">
-        <img src="https://img.shields.io/badge/📄_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
-      </a>
-      <a href="mailto:diegogildam@gmail.com">
-        <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
-      </a>
-    </td>
-    <td width="45%" valign="middle" align="center">
-      <!-- ✏️ Para cambiar las frases del typing, edita el parámetro lines= (separadas por ;) -->
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=380&height=120&lines=Diego+Gil;Estudiante+DAM+%C2%B7+Tenerife;Backend+%26+bases+de+datos;Dedicaci%C3%B3n+%3E+talento;Entender+%3E+terminar" alt="typing" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <h1>Hola, soy Diego 👋</h1>
+  <h3>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</h3>
+  <br />
+  <a href="https://diegoalegil.github.io/">
+    <img src="https://img.shields.io/badge/📄_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
+  </a>
+  <a href="mailto:diegogildam@gmail.com">
+    <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
+  </a>
+</div>
 
 ---
 
