@@ -5,7 +5,8 @@
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → frases del typing SVG
    ✏️ BIO           → bio principal y bio extendida (<details>)
-   ✏️ PRINCIPALES   → AnimeShowdown (estrella) + Canarias Convive
+   ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
+   ✏️ TRABAJANDO    → proyecto activo paralelo (Canarias Convive)
    ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
    ✏️ DESTACADOS    → tabla 2x2 (rotar cuando cambien tus repos top)
    ✏️ CIERRE        → frase final
@@ -67,8 +68,10 @@
 
 ---
 
-<!-- ─── PRINCIPALES  ✏️ ─────────────────────────────────────────────────── -->
-## 🚀 Proyectos principales
+<!-- ─── MI PROYECTO PRINCIPAL  ✏️ ───────────────────────────────────────── -->
+## 🌟 Mi proyecto principal
+
+> El producto donde mejor se ve cómo trabajo: full-stack de cero, decisiones técnicas defendibles y desplegado en producción real.
 
 <!-- ── ⚔️ AnimeShowdown — proyecto estrella ────────────────────────────── -->
 <table align="center">
@@ -119,9 +122,12 @@
   </tr>
 </table>
 
-<br />
+---
 
-<!-- ── 📄 Canarias Convive — segundo proyecto principal ────────────────── -->
+<!-- ─── ESTOY TRABAJANDO EN  ✏️ ─────────────────────────────────────────── -->
+## 🚧 Estoy trabajando en
+
+<!-- ── 📄 Canarias Convive — práctica profesional en la ULL ────────────── -->
 <table align="center">
   <tr>
     <td width="30%" valign="middle" align="center">
