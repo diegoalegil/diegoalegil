@@ -29,7 +29,7 @@
 
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
 <div align="center">
-  <h1>Hola, soy Diego 👋</h1>
+  <h1>Hola, soy Diego 👋🏻</h1>
   <h3>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</h3>
   <br />
   <a href="https://diegoalegil.github.io/">
