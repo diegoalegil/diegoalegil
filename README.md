@@ -5,8 +5,9 @@
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → frases del typing SVG
    ✏️ BIO           → bio principal y bio extendida (<details>)
+   ✏️ PRINCIPALES   → AnimeShowdown (estrella) + Canarias Convive
    ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
-   ✏️ PROYECTOS     → tabla 2x2 (rotar cuando cambien tus repos top)
+   ✏️ DESTACADOS    → tabla 2x2 (rotar cuando cambien tus repos top)
    ✏️ CIERRE        → frase final
 ═══════════════════════════════════════════════════════════════════════════════
 -->
@@ -63,6 +64,91 @@
 
   Ahora mismo trasteando con **sistemas distribuidos** (CockroachDB), **PL/pgSQL avanzado** y **APIs REST** en Java y Node.js.
 </details>
+
+---
+
+<!-- ─── PRINCIPALES  ✏️ ─────────────────────────────────────────────────── -->
+## 🚀 Proyectos principales
+
+<!-- ── ⚔️ AnimeShowdown — proyecto estrella ────────────────────────────── -->
+<table align="center">
+  <tr>
+    <td width="32%" valign="top" align="center">
+      <a href="https://animeshowdown.dev">
+        <img src="images/reze.jpg" alt="AnimeShowdown" width="100%" />
+      </a>
+    </td>
+    <td width="68%" valign="top">
+      <h3>⚔️ AnimeShowdown</h3>
+      <p>
+        <b>Plataforma full-stack de duelos, torneos y ranking ELO de personajes anime.</b> Frontend, API, BBDD, auth y despliegue en producción real — construido de cero.
+      </p>
+      <p>
+        <a href="https://animeshowdown.dev">
+          <img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web live" height="32" />
+        </a>
+        <a href="https://github.com/diegoalegil/AnimeShowdown">
+          <img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="32" />
+        </a>
+        <a href="https://api.animeshowdown.dev">
+          <img src="https://img.shields.io/badge/API-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="API live" height="32" />
+        </a>
+        <a href="https://api.animeshowdown.dev/swagger-ui/index.html">
+          <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" height="32" />
+        </a>
+      </p>
+      <ul>
+        <li><b>Ranking ELO</b> que reordena en tiempo real con cada votación y cierre de torneo.</li>
+        <li><b>Brackets visuales</b> SVG y resolución transaccional de enfrentamientos por conteo de votos.</li>
+        <li><b>Auth completa</b>: JWT con refresh por cookie httpOnly, 2FA TOTP y emails transaccionales.</li>
+        <li><b>API REST</b> documentada con OpenAPI 3 + Swagger UI · desplegada en <b>Cloudflare Pages + Railway + Neon</b>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+        <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
+        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- ── 📄 Canarias Convive — segundo proyecto principal ────────────────── -->
+<table align="center">
+  <tr>
+    <td width="30%" valign="middle" align="center">
+      <img src="images/facturas-cancon-frontend.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
+    </td>
+    <td width="70%" valign="middle">
+      <h3>📄 Sistema de facturas — Canarias Convive</h3>
+      <p>
+        <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
+      </p>
+      <p>
+        <b>Backend</b> en Google Apps Script sobre Sheet + Drive, con <b>7 validaciones</b> automáticas (importes, fechas, CIF/NIF, duplicados) y status por color. <b>Frontend público</b> en Next.js + Vercel para registrar facturas desde el móvil, instalable como app en iPhone y Mac.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+      <p>
+        <sub>🏛️ Proyecto interno · en validación final antes de pasar a producción</sub>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -129,74 +215,7 @@
 
 ---
 
-<!-- ─── ESTOY TRABAJANDO EN  ✏️ ──────────────────────────────────────────── -->
-## 🚧 Estoy trabajando en
-
-<!-- ── Proyecto 1: prácticas en la ULL ─────────────────────────────────── -->
-<table align="center">
-  <tr>
-    <td width="30%" valign="middle" align="center">
-      <img src="images/facturas-cancon-frontend.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
-    </td>
-    <td width="70%" valign="middle">
-      <h3>📄 Sistema de facturas — Canarias Convive</h3>
-      <p>
-        <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
-      </p>
-      <p>
-        <b>Backend</b> en Google Apps Script sobre Sheet + Drive, con <b>7 validaciones</b> automáticas (importes, fechas, CIF/NIF, duplicados) y status por color. <b>Frontend público</b> en Next.js + Vercel para registrar facturas desde el móvil, instalable como app en iPhone y Mac.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      </p>
-      <p>
-        <sub>🏛️ Proyecto interno · en validación final antes de pasar a producción</sub>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<!-- ── Proyecto 2: AnimeShowdown ───────────────────────────────────────── -->
-<table align="center">
-  <tr>
-    <td width="35%" valign="middle" align="center">
-      <img src="images/reze.jpg" alt="AnimeShowdown" width="100%" />
-    </td>
-    <td width="65%" valign="top">
-      <h3>⚔️ AnimeShowdown</h3>
-      <p>
-        <b>Torneos de personajes anime estilo bracket.</b> La comunidad vota enfrentamiento a enfrentamiento, los personajes suben o bajan en el <b>ranking ELO</b> y los datos vienen directos de <b>MyAnimeList</b> vía la <b>Jikan API</b>.
-      </p>
-      <p>
-        <b>API REST</b> en Java + Spring Boot con capas <code>controller → service → repository → model</code>, <b>auth con JWT</b> y un <b>frontend desacoplado</b> en HTML/CSS/JS puro consumiendo la API con <code>fetch()</code>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-        <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jikan_API-2E51A2?style=flat-square" />
-      </p>
-      <p>
-        <a href="https://github.com/diegoalegil/AnimeShowdown"><b>Ver repo →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-<!-- ─── PROYECTOS  ✏️ ────────────────────────────────────────────────────── -->
+<!-- ─── DESTACADOS  ✏️ ──────────────────────────────────────────────────── -->
 ## 💾 Proyectos destacados
 
 <table>
