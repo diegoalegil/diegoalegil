@@ -119,30 +119,33 @@
 <!-- ─── ESTOY TRABAJANDO EN  ✏️ ─────────────────────────────────────────── -->
 ## 🚧 Estoy trabajando en
 
-<!-- ── 📄 Canarias Convive — práctica profesional en la ULL ────────────── -->
+<!-- ── 🗺️ Canarias Convive — rediseño del mapa público ─────────────────── -->
 <table align="center">
   <tr>
-    <td width="30%" valign="middle" align="center">
-      <img src="images/facturas-cancon-frontend.jpg" alt="Facturas Canarias Convive · frontend" width="240" />
+    <td width="50%" valign="middle" align="center">
+      <a href="https://diegoalegil.github.io/canariasconvive-mapa/">
+        <img src="images/canariasconvive-mapa.jpg" alt="Mapa de agentes Canarias Convive · estilo Mapbox custom con clustering" width="100%" />
+      </a>
     </td>
-    <td width="70%" valign="middle">
-      <h3>📄 Sistema de facturas — Canarias Convive</h3>
+    <td width="50%" valign="middle">
+      <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
       <p>
-        <b>Prácticas en la Fundación General de la ULL.</b> Estoy automatizando el flujo de gastos del proyecto <b>Canarias Convive</b>: tickets en papel, fotos y PDFs sueltos pasan a un sistema centralizado con <b>trazabilidad, validaciones automáticas y envío directo</b> al departamento de pagos.
+        <b>Rediseño del mapa público</b> del programa <b>Canarias Convive</b> (Gobierno de Canarias + ULL). Sustituyo el estilo por defecto de Mapbox por uno <b>custom con la paleta corporativa</b>, añado <b>clustering</b>, <b>filtros por sector</b> sobre 234 entidades reales y <b>vista 3D</b>.
       </p>
       <p>
-        <b>Backend</b> en Google Apps Script sobre Sheet + Drive, con <b>7 validaciones</b> automáticas (importes, fechas, CIF/NIF, duplicados) y status por color. <b>Frontend público</b> en Next.js + Vercel para registrar facturas desde el móvil, instalable como app en iPhone y Mac.
+        <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.9</b>. Estilo publicado en Mapbox Studio. Datos extraídos de la API REST oficial mediante ingeniería inversa del bundle público.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" />
       </p>
       <p>
-        <sub>🏛️ Proyecto interno · en validación final antes de pasar a producción</sub>
+        <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>🌐 Demo en vivo</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/diegoalegil/canariasconvive-mapa"><b>Ver repo →</b></a>
       </p>
     </td>
   </tr>
