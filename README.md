@@ -151,6 +151,41 @@
   </tr>
 </table>
 
+<br />
+
+<!-- ── 🏝️ Fuerteventura Protagonista — prototipo del mapa ──────────────── -->
+<table align="center">
+  <tr>
+    <td width="50%" valign="middle" align="center">
+      <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/">
+        <img src="images/fuerteventura-mapa.jpg" alt="Mapa de agentes Fuerteventura Protagonista · prototipo con paleta marrón" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="middle">
+      <h3>🏝️ Mapa de agentes — Fuerteventura Protagonista</h3>
+      <p>
+        <b>Mismo enfoque, otra isla.</b> Prototipo del mapa público de <b>Fuerteventura Protagonista</b> (Cabildo de Fuerteventura + ULL). Misma base técnica que el de Canarias Convive pero con <b>paleta marrón/tierra</b> y tipografía <b>Libre Baskerville</b> para casar con la identidad del programa.
+      </p>
+      <p>
+        <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.21</b> + <b>Turf.js</b> para las geometrías 3D. <b>18 puntos placeholder</b> (ayuntamientos, Cabildo, entidades públicas) a la espera de importar el back-office real.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" />
+        <img src="https://img.shields.io/badge/Turf.js-1F8930?style=flat-square&logo=turf&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" />
+      </p>
+      <p>
+        <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/"><b>🌐 Demo en vivo</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/diegoalegil/fuerteventuraprotagonista-mapa"><b>Ver repo →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 🛠️ Stack
