@@ -380,7 +380,7 @@
       <td align="center" width="680">
         <p>
           <i>
-            "Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> — y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."
+            "Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."
           </i>
         </p>
         <br />
