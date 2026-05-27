@@ -372,30 +372,26 @@
 <div align="center">
   <br />
   <br />
-  <img src="images/steve-jobs.png" alt="Steve Jobs · Apple" height="200" />
-  <br />
-  <br />
   <table align="center" border="0">
     <tr>
-      <td align="center" width="680">
+      <td width="32%" valign="middle" align="center">
+        <img src="images/steve-jobs.png" alt="Steve Jobs · Apple" width="86%" />
+      </td>
+      <td width="68%" valign="middle">
         <p>
-          <i>
-            "Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."
-          </i>
+          <i>"Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."</i>
         </p>
         <br />
         <p>
-          <i>
-            "Todos tenemos la capacidad de hacer grandes cosas.<br/>
-            <b>No debemos poner límites a nuestra imaginación.</b>"
-          </i>
+          <i>"Todos tenemos la capacidad de hacer grandes cosas.<br/>
+          <b>No debemos poner límites a nuestra imaginación.</b>"</i>
+        </p>
+        <p align="right">
+          <sub>— <b>STEVE JOBS</b></sub>
         </p>
       </td>
     </tr>
   </table>
-  <br />
-  <sub>— <b>STEVE JOBS</b></sub>
-  <br />
   <br />
   <br />
   <a href="mailto:diegogildam@gmail.com">📨 diegogildam@gmail.com</a>
