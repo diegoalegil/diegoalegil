@@ -30,21 +30,44 @@ svg = re.sub(
     stamp_point, svg
 )
 
-# Bloque <style> con @keyframes y cubic-bezier Apple-style
+# Bloque <style> con keyframes en loop infinito (ciclo de 14 s).
+# Los SVG cargados como <img> no pueden ser scroll-triggered (no JS), así que
+# loopeamos para que el visitante pille la animación sin importar cuándo
+# llegue a la sección. Easings tipo Apple: ease-in-out para el dibujado,
+# ease para el fade-out final.
 style_block = '''<style>
-  @keyframes act-draw { to { stroke-dashoffset: 0; } }
-  @keyframes act-fade { to { opacity: 1; } }
-  .ct-line {
-    animation: act-draw 2.4s cubic-bezier(0.42, 0, 0.58, 1) 0.3s forwards;
+  @keyframes act-line {
+    0%   { stroke-dashoffset: 5000; opacity: 0;
+           animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1); }
+    4%   { opacity: 1; }
+    25%  { stroke-dashoffset: 0; opacity: 1;
+           animation-timing-function: linear; }
+    87%  { stroke-dashoffset: 0; opacity: 1;
+           animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+    100% { stroke-dashoffset: 0; opacity: 0; }
   }
-  .ct-area {
-    opacity: 0;
-    animation: act-fade 1.0s cubic-bezier(0.25, 0.1, 0.25, 1) 1.6s forwards;
+  @keyframes act-area {
+    0%   { opacity: 0;
+           animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+    12%  { opacity: 0; }
+    30%  { opacity: 1;
+           animation-timing-function: linear; }
+    87%  { opacity: 1;
+           animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+    100% { opacity: 0; }
   }
-  .ct-point {
-    opacity: 0;
-    animation: act-fade 0.35s cubic-bezier(0.16, 1, 0.3, 1) var(--d, 0s) forwards;
+  @keyframes act-point {
+    0%   { opacity: 0;
+           animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+    3%   { opacity: 1;
+           animation-timing-function: linear; }
+    87%  { opacity: 1;
+           animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+    100% { opacity: 0; }
   }
+  .ct-line  { animation: act-line  14s linear infinite; }
+  .ct-area  { opacity: 0; animation: act-area  14s linear infinite; }
+  .ct-point { opacity: 0; animation: act-point 14s linear infinite var(--d, 0s); }
 </style>'''
 
 # Insertar el <style> justo antes de </svg>
