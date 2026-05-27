@@ -386,8 +386,9 @@
           <i>"Todos tenemos la capacidad de hacer grandes cosas.<br/>
           <b>No debemos poner límites a nuestra imaginación.</b>"</i>
         </p>
+        <br />
         <p align="right">
-          <sub>— <b>STEVE JOBS</b></sub>
+          <sub>—&nbsp;&nbsp;<kbd>&nbsp;<b>STEVE&nbsp;JOBS</b>&nbsp;</kbd></sub>&nbsp;&nbsp;
         </p>
       </td>
     </tr>
