@@ -340,6 +340,11 @@
 
 ---
 
+<!-- ─── 🏆 TROFEOS — temporalmente oculto ─────────────────────────────────
+     github-profile-trophy.vercel.app devuelve HTTP 402 (cuota agotada
+     en su despliegue de Vercel). Cuando el servicio vuelva, retira este
+     wrapper de comentario para reactivar la sección.
+
 ## 🏆 Trofeos
 
 <p align="center">
@@ -348,7 +353,8 @@
   </a>
 </p>
 
----
+─── /TROFEOS ──────────────────────────────────────────────────────── -->
+
 
 <!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
   - Zonas editables marcadas con ✏️ en los comentarios HTML.
