@@ -342,14 +342,18 @@
 
 <!-- ─── ACTIVIDAD ─────────────────────────────────────────────────────────
      Gráfico de área con la evolución de contribuciones del último año.
-     Servicio: Ashutosh00710/github-readme-activity-graph (Vercel).
-     Sustituye a la sección de Trofeos (github-profile-trophy.vercel.app
-     ha venido devolviendo HTTP 402 por cuota agotada).
+     Base: Ashutosh00710/github-readme-activity-graph (Vercel) — el SVG se
+     genera ahí y se post-procesa con scripts/inject-activity-animation.py
+     para inyectar animaciones SMIL Apple-style: stroke-draw de la línea
+     con easing ease-in-out, fade-in del área tras dibujarse, y aparición
+     escalonada de los puntos con un toque de spring. El SVG resultante
+     vive en images/activity.svg para que las animaciones sobrevivan al
+     paso por el CDN de GitHub.
 ─────────────────────────────────────────────────────────────────────── -->
 ## 📈 Actividad
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=7AA2F7&line=BB9AF7&point=F7768E" alt="Gráfico de actividad de contribuciones de Diego" />
+  <img src="images/activity.svg" alt="Gráfico animado de contribuciones de Diego del último año" />
 </p>
 
 
