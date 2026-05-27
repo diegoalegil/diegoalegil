@@ -340,20 +340,17 @@
 
 ---
 
-<!-- ─── 🏆 TROFEOS — temporalmente oculto ─────────────────────────────────
-     github-profile-trophy.vercel.app devuelve HTTP 402 (cuota agotada
-     en su despliegue de Vercel). Cuando el servicio vuelva, retira este
-     wrapper de comentario para reactivar la sección.
-
-## 🏆 Trofeos
+<!-- ─── ACTIVIDAD ─────────────────────────────────────────────────────────
+     Gráfico de área con la evolución de contribuciones del último año.
+     Servicio: Ashutosh00710/github-readme-activity-graph (Vercel).
+     Sustituye a la sección de Trofeos (github-profile-trophy.vercel.app
+     ha venido devolviendo HTTP 402 por cuota agotada).
+─────────────────────────────────────────────────────────────────────── -->
+## 📈 Actividad
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=diegoalegil&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&hide=Stars,Issues,PullRequest" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=7AA2F7&line=BB9AF7&point=F7768E" alt="Gráfico de actividad de contribuciones de Diego" />
 </p>
-
-─── /TROFEOS ──────────────────────────────────────────────────────── -->
 
 
 <!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
