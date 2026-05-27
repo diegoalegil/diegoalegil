@@ -371,8 +371,33 @@
 <!-- ─── CIERRE  ✏️ ───────────────────────────────────────────────────────── -->
 <div align="center">
   <br />
-  <i>"No me considero un programador con talento.<br/>Soy un dedicado que casualmente programa."</i>
-  <br /><br />
+  <br />
+  <img src="https://cdn.simpleicons.org/apple/7AA2F7" alt="" height="42" />
+  <br />
+  <br />
+  <table align="center" border="0">
+    <tr>
+      <td align="center" width="680">
+        <p>
+          <i>
+            "Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> — y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."
+          </i>
+        </p>
+        <br />
+        <p>
+          <i>
+            "Todos tenemos la capacidad de hacer grandes cosas.<br/>
+            <b>No debemos poner límites a nuestra imaginación.</b>"
+          </i>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <sub>— <b>STEVE JOBS</b></sub>
+  <br />
+  <br />
+  <br />
   <a href="mailto:diegogildam@gmail.com">📨 diegogildam@gmail.com</a>
   &nbsp;·&nbsp;
   <a href="https://diegoalegil.github.io/">🌐 diegoalegil.github.io</a>
