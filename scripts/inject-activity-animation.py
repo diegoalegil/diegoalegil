@@ -52,7 +52,7 @@ def animate_point(m):
         f'><animate attributeName="opacity" '
         f'from="0" to="1" dur="0.35s" begin="{delay:.2f}s" '
         f'fill="freeze" calcMode="spline" '
-        f'keyTimes="0;1" keySplines="0.34 1.56 0.64 1"/></line>'
+        f'keyTimes="0;1" keySplines="0.16 1 0.3 1"/></line>'
     )
 
 svg = re.sub(
