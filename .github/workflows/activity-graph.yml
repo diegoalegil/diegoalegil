@@ -45,4 +45,11 @@ jobs:
           git config user.email "diegogildam@gmail.com"
           git add images/activity.svg
           git commit -m "chore: regenerar gráfico de actividad"
-          git push
+          # Reintento con rebase por si otro run pusheó mientras tanto
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rechazado (intento $attempt). Rebase sobre origin/main y reintento..."
+            git pull --rebase origin main
+          done
+          echo "Push fallido tras 3 intentos."
+          exit 1
