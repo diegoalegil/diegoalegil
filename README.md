@@ -372,7 +372,7 @@
 <div align="center">
   <br />
   <br />
-  <img src="https://cdn.simpleicons.org/apple/7AA2F7" alt="" height="42" />
+  <img src="images/steve-jobs.png" alt="Steve Jobs · Apple" height="200" />
   <br />
   <br />
   <table align="center" border="0">
