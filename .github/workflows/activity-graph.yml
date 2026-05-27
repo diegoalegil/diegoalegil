@@ -1,0 +1,48 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    # 00:30 UTC diario (media hora después del snake para no chocar)
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/activity-graph.yml'
+      - 'scripts/inject-activity-animation.py'
+
+concurrency:
+  group: activity-graph
+  cancel-in-progress: false
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Fetch activity graph SVG
+        run: |
+          curl -sL --fail \
+            "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=7AA2F7&line=BB9AF7&point=F7768E" \
+            -o /tmp/raw.svg
+          test -s /tmp/raw.svg
+
+      - name: Inject Apple-style animations
+        run: python3 scripts/inject-activity-animation.py /tmp/raw.svg images/activity.svg
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- images/activity.svg; then
+            echo "Sin cambios en el SVG, no hay nada que committear."
+            exit 0
+          fi
+          git config user.name "diegoalegil"
+          git config user.email "diegogildam@gmail.com"
+          git add images/activity.svg
+          git commit -m "chore: regenerar gráfico de actividad"
+          git push
