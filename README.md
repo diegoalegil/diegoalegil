@@ -330,9 +330,9 @@
 </p>
 
 <!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
-  Para que aparezca, necesitas el workflow .github/workflows/snake.yml (ya incluido).
-  Tras hacer push a main, ejecuta el workflow manualmente desde la pestaña Actions
-  la primera vez. Después se regenera automáticamente cada 24h.
+  La snake la genera el workflow .github/workflows/activity-graph.yml ("Update
+  profile assets"), que publica todos los assets en la rama output. La primera
+  vez, lánzalo desde Actions → Update profile assets → Run workflow.
 ─────────────────────────────────────────────────────────────────────────── -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" alt="snake animation" />
@@ -359,9 +359,9 @@
 
 <!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
   - Zonas editables marcadas con ✏️ en los comentarios HTML.
-  - La animación de la serpiente la genera .github/workflows/snake.yml cada
-    noche y se publica en la rama output. Si nunca se ha ejecutado, lánzalo
-    manualmente desde Actions → Generate Snake animation → Run workflow.
+  - Snake, gráfico de actividad y tarjetas de stats los genera y publica en la
+    rama output el workflow .github/workflows/activity-graph.yml ("Update
+    profile assets") cada noche. Primera vez: Actions → Run workflow.
   - Las imágenes viven en images/. Mantén cualquier nueva por debajo de
     ~500 KB (banner máx 1600 px de ancho, ilustraciones pequeñas a 800 px).
   - Acciones de terceros del workflow pineadas por SHA por seguridad de
