@@ -320,13 +320,13 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" alt="Resumen de estadísticas de GitHub de Diego" />
-  <img height="180" src="https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" alt="Racha de contribuciones de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" alt="Repositorios por lenguaje de Diego" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" alt="Detalles del perfil de GitHub de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/profile-details.svg" alt="Detalles del perfil de GitHub de Diego" />
 </p>
 
 <!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
@@ -347,13 +347,13 @@
      para inyectar animaciones SMIL Apple-style: stroke-draw de la línea
      con easing ease-in-out, fade-in del área tras dibujarse, y aparición
      escalonada de los puntos con un toque de spring. El SVG resultante
-     vive en images/activity.svg para que las animaciones sobrevivan al
-     paso por el CDN de GitHub.
+     se publica en la rama output (junto con la snake y las tarjetas de
+     stats) para que las animaciones sobrevivan al paso por el CDN de GitHub.
 ─────────────────────────────────────────────────────────────────────── -->
 ## 📈 Actividad
 
 <p align="center">
-  <img src="images/activity.svg" alt="Gráfico animado de contribuciones de Diego del último año" />
+  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/activity.svg" alt="Gráfico animado de contribuciones de Diego del último año" />
 </p>
 
 

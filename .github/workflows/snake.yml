@@ -28,5 +28,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_files: true   # conserva activity.svg y las tarjetas de stats en la misma rama
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
