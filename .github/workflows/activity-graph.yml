@@ -28,7 +28,7 @@ jobs:
       - name: Fetch activity graph SVG
         run: |
           curl -sL --fail \
-            "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=7AA2F7&line=BB9AF7&point=F7768E" \
+            "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=7AA2F7&line=BB9AF7&point=F7768E" \
             -o /tmp/raw.svg
           test -s /tmp/raw.svg
 
