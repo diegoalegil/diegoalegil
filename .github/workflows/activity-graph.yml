@@ -1,4 +1,4 @@
-name: Update Activity Graph
+name: Update profile assets
 
 on:
   schedule:
@@ -13,7 +13,7 @@ on:
       - 'scripts/inject-activity-animation.py'
 
 concurrency:
-  group: activity-graph
+  group: profile-assets
   cancel-in-progress: false
 
 jobs:
@@ -25,31 +25,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
-      - name: Fetch activity graph SVG
+      - name: Build assets
         run: |
-          curl -sL --fail \
-            "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=7AA2F7&line=BB9AF7&point=F7768E" \
+          mkdir -p dist
+          # Gráfico de actividad animado (post-procesado con el script propio).
+          curl -sL --fail --max-time 30 \
+            "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=7AA2F7&line=BB9AF7&point=F7768E" \
             -o /tmp/raw.svg
           test -s /tmp/raw.svg
-
-      - name: Inject Apple-style animations
-        run: python3 scripts/inject-activity-animation.py /tmp/raw.svg images/activity.svg
-
-      - name: Commit and push if changed
-        run: |
-          if git diff --quiet -- images/activity.svg; then
-            echo "Sin cambios en el SVG, no hay nada que committear."
-            exit 0
-          fi
-          git config user.name "diegoalegil"
-          git config user.email "diegogildam@gmail.com"
-          git add images/activity.svg
-          git commit -m "chore: regenerar gráfico de actividad"
-          # Reintento con rebase por si otro run pusheó mientras tanto
-          for attempt in 1 2 3; do
-            if git push; then exit 0; fi
-            echo "Push rechazado (intento $attempt). Rebase sobre origin/main y reintento..."
-            git pull --rebase origin main
+          python3 scripts/inject-activity-animation.py /tmp/raw.svg dist/activity.svg
+          # Tarjetas de stats: snapshot diario para no depender del servicio en cada visita
+          # (si el proveedor cae, el perfil sigue mostrando la última copia buena).
+          curl -sL --fail --max-time 30 \
+            "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" \
+            -o dist/stats.svg
+          curl -sL --fail --max-time 30 \
+            "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" \
+            -o dist/repos-per-language.svg
+          curl -sL --fail --max-time 30 \
+            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" \
+            -o dist/profile-details.svg
+          curl -sL --fail --max-time 30 \
+            "https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" \
+            -o dist/streak.svg
+          for f in dist/activity.svg dist/stats.svg dist/repos-per-language.svg dist/profile-details.svg dist/streak.svg; do
+            test -s "$f" || { echo "Asset vacío o ausente: $f"; exit 1; }
           done
-          echo "Push fallido tras 3 intentos."
-          exit 1
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_files: true   # conserva los SVG de la snake que viven en la misma rama
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

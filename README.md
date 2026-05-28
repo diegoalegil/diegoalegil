@@ -20,8 +20,8 @@
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat&logoSize=2vh&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
-  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat&logoSize=2vh&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
+  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
+  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
   <img src="https://komarev.com/ghpvc/?username=diegoalegil&style=flat&label=visitas&labelColor=1a1b27&color=f7768e" alt="profile views" />
 </p>
 
@@ -30,7 +30,7 @@
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
 <div align="center">
   <h1>Hola, soy Diego 👋🏻</h1>
-  <h3>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</h3>
+  <p><b>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</b></p>
   <br />
   <a href="https://diegoalegil.github.io/">
     <img src="https://img.shields.io/badge/📄_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
@@ -99,16 +99,16 @@
         <li><b>API REST</b> documentada con OpenAPI 3 + Swagger UI · desplegada en <b>Cloudflare Pages + Railway + Neon</b>.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-        <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
-        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" />
+        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
+        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 3" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
+        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
       </p>
     </td>
   </tr>
@@ -136,11 +136,11 @@
         <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.9</b>. Estilo publicado en Mapbox Studio. Datos extraídos de la API REST oficial mediante ingeniería inversa del bundle público.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
       </p>
       <p>
         <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>🌐 Demo en vivo</b></a>
@@ -170,12 +170,12 @@
         <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.21</b> + <b>Turf.js</b> para las geometrías 3D. <b>18 puntos placeholder</b> (ayuntamientos, Cabildo, entidades públicas) a la espera de importar el back-office real.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" />
-        <img src="https://img.shields.io/badge/Turf.js-1F8930?style=flat-square&logo=turf&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
+        <img src="https://img.shields.io/badge/Turf.js-1F8930?style=flat-square&logo=turf&logoColor=white" alt="Turf.js" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
       </p>
       <p>
         <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/"><b>🌐 Demo en vivo</b></a>
@@ -195,17 +195,17 @@
     <td valign="top" width="50%">
       <h3 align="center">⚙️ Backend</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
       </p>
     </td>
     <td valign="top" width="50%">
       <h3 align="center">🗄️ Bases de datos</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white" alt="CockroachDB" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
       </p>
     </td>
   </tr>
@@ -213,18 +213,18 @@
     <td valign="top" width="50%">
       <h3 align="center">🌐 Web</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
       </p>
     </td>
     <td valign="top" width="50%">
       <h3 align="center">🧰 Tooling</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
       </p>
     </td>
   </tr>
@@ -232,7 +232,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,nodejs,php,postgres,mysql,js,html,css,wordpress,linux,git,github&perline=12" />
+    <img src="https://skillicons.dev/icons?i=java,nodejs,php,postgres,mysql,js,html,css,wordpress,linux,git,github&perline=12" alt="Tecnologías: Java, Node.js, PHP, PostgreSQL, MySQL, JavaScript, HTML, CSS, WordPress, Linux, Git, GitHub" />
   </a>
 </p>
 
@@ -262,9 +262,9 @@
         Demo de un <b>sistema de pagos distribuido</b>. Replicación, consistencia y transacciones en una base de datos pensada para no caerse.
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white" alt="CockroachDB" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
       </p>
       <p align="center">
         <a href="https://github.com/diegoalegil/TinerPay"><b>Ver código →</b></a>
@@ -276,8 +276,8 @@
         PL/pgSQL real: <b>triggers, procedimientos almacenados, transacciones ACID</b> y estrategias de backup. Centrado en integridad y concurrencia.
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/PL%2FpgSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/PL%2FpgSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PL/pgSQL" />
       </p>
       <p align="center">
         <a href="https://github.com/diegoalegil/postgresql-avanzado"><b>Ver código →</b></a>
@@ -291,8 +291,8 @@
         Aplicación de <b>gestión de gimnasio</b> en Java. POO aplicada a un dominio real: socios, rutinas, pagos.
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/POO-ED8B00?style=flat-square" />
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/POO-ED8B00?style=flat-square" alt="Programación orientada a objetos" />
       </p>
       <p align="center">
         <a href="https://github.com/diegoalegil/gimnasio-app"><b>Ver código →</b></a>
@@ -304,9 +304,9 @@
         Tienda <b>WooCommerce premium</b> de miniaturas con diseño oscuro, animaciones y módulos JS/PHP propios sobre WordPress.
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
       </p>
       <p align="center">
         <a href="https://github.com/diegoalegil/miniature-car-shop"><b>Ver código →</b></a>
@@ -320,13 +320,13 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" />
-  <img height="180" src="https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
+  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/profile-details.svg" alt="Detalles del perfil de GitHub de Diego" />
 </p>
 
 <!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
@@ -347,13 +347,13 @@
      para inyectar animaciones SMIL Apple-style: stroke-draw de la línea
      con easing ease-in-out, fade-in del área tras dibujarse, y aparición
      escalonada de los puntos con un toque de spring. El SVG resultante
-     vive en images/activity.svg para que las animaciones sobrevivan al
-     paso por el CDN de GitHub.
+     se publica en la rama output (junto con la snake y las tarjetas de
+     stats) para que las animaciones sobrevivan al paso por el CDN de GitHub.
 ─────────────────────────────────────────────────────────────────────── -->
 ## 📈 Actividad
 
 <p align="center">
-  <img src="images/activity.svg" alt="Gráfico animado de contribuciones de Diego del último año" />
+  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/activity.svg" alt="Gráfico animado de contribuciones de Diego del último año" />
 </p>
 
 

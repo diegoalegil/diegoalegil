@@ -4,9 +4,10 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+concurrency:
+  group: snake
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -27,5 +28,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_files: true   # conserva activity.svg y las tarjetas de stats en la misma rama
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
