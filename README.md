@@ -4,9 +4,10 @@
   ───────────────────────────────────────────────────────────────────────────
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → título, subtítulo y botones CTA
+   ✏️ PRODUCCIÓN    → bloque destacado (Canarias Convive · en producción real)
    ✏️ BIO           → bio principal y bio extendida (<details>)
    ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
-   ✏️ TRABAJANDO    → proyecto activo paralelo (Canarias Convive)
+   ✏️ TRABAJANDO    → sección oculta (Fuerteventura, reactivar al salir a prod)
    ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
    ✏️ DESTACADOS    → tabla 2x2 (rotar cuando cambien tus repos top)
    ✏️ CIERRE        → frase final
@@ -39,6 +40,50 @@
     <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
   </a>
 </div>
+
+---
+
+<!-- ─── 🚀 EN PRODUCCIÓN  ✏️ ──────────────────────────────────────────────── -->
+## 🚀 En producción
+
+> Código mío sirviendo en una web institucional real, ahora mismo.
+
+<table align="center">
+  <tr>
+    <td width="48%" valign="middle" align="center">
+      <a href="https://canariasconvive.com/mapa-de-agentes/">
+        <img src="images/canariasconvive-mapa.jpg" alt="Mapa de agentes Canarias Convive en producción" width="100%" />
+      </a>
+    </td>
+    <td width="52%" valign="middle">
+      <p>
+        <img src="https://img.shields.io/badge/EN_PRODUCCIÓN-2EA043?style=for-the-badge&labelColor=1a1b27" alt="En producción" />
+        <img src="https://img.shields.io/badge/Gobierno_de_Canarias_y_ULL-1a1b27?style=for-the-badge" alt="Gobierno de Canarias y ULL" />
+      </p>
+      <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
+      <p>
+        El mapa público que sirve <a href="https://canariasconvive.com/mapa-de-agentes/"><b>canariasconvive.com</b></a> en producción. Una plataforma del <b>Gobierno de Canarias + ULL</b> depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
+      </p>
+      <p>
+        <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
+      </p>
+      <p>
+        <a href="https://canariasconvive.com/mapa-de-agentes/"><b>🟢 Ver en producción</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>Demo</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/diegoalegil/canariasconvive-mapa"><b>Repo →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -116,75 +161,39 @@
 
 ---
 
-<!-- ─── ESTOY TRABAJANDO EN  ✏️ ─────────────────────────────────────────── -->
-## 🚧 Estoy trabajando en
+<!-- ─── 🚧 ESTOY TRABAJANDO EN — sección oculta hasta que Fuerteventura entre en producción ──
+     Canarias Convive se promovió a la sección "🚀 En producción" (arriba del todo).
+     La tarjeta de Fuerteventura Protagonista (todavía prototipo, con datos placeholder)
+     queda guardada aquí para reactivar la sección cuando el proyecto esté listo.
+     PARA REACTIVAR: retira este wrapper de comentario y restaura el encabezado
+     "## 🚧 Estoy trabajando en".
 
-<!-- ── 🗺️ Canarias Convive — rediseño del mapa público ─────────────────── -->
-<table align="center">
-  <tr>
-    <td width="50%" valign="middle" align="center">
-      <a href="https://diegoalegil.github.io/canariasconvive-mapa/">
-        <img src="images/canariasconvive-mapa.jpg" alt="Mapa de agentes Canarias Convive · estilo Mapbox custom con clustering" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="middle">
-      <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
-      <p>
-        <b>Rediseño del mapa público</b> del programa <b>Canarias Convive</b> (Gobierno de Canarias + ULL). Sustituyo el estilo por defecto de Mapbox por uno <b>custom con la paleta corporativa</b>, añado <b>clustering</b>, <b>filtros por sector</b> sobre 234 entidades reales y <b>vista 3D</b>.
-      </p>
-      <p>
-        <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.9</b>. Estilo publicado en Mapbox Studio. Datos extraídos de la API REST oficial mediante ingeniería inversa del bundle público.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
-      </p>
-      <p>
-        <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>🌐 Demo en vivo</b></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/diegoalegil/canariasconvive-mapa"><b>Ver repo →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<!-- ── 🏝️ Fuerteventura Protagonista — prototipo del mapa ──────────────── -->
-<table align="center">
-  <tr>
-    <td width="50%" valign="middle" align="center">
-      <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/">
-        <img src="images/fuerteventura-mapa.jpg" alt="Mapa de agentes Fuerteventura Protagonista · prototipo con paleta marrón" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="middle">
-      <h3>🏝️ Mapa de agentes — Fuerteventura Protagonista</h3>
-      <p>
-        <b>Mismo enfoque, otra isla.</b> Prototipo del mapa público de <b>Fuerteventura Protagonista</b> (Cabildo de Fuerteventura + ULL). Misma base técnica que el de Canarias Convive pero con <b>paleta marrón/tierra</b> y tipografía <b>Libre Baskerville</b> para casar con la identidad del programa.
-      </p>
-      <p>
-        <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.21</b> + <b>Turf.js</b> para las geometrías 3D. <b>18 puntos placeholder</b> (ayuntamientos, Cabildo, entidades públicas) a la espera de importar el back-office real.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
-        <img src="https://img.shields.io/badge/Turf.js-1F8930?style=flat-square&logo=turf&logoColor=white" alt="Turf.js" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
-      </p>
-      <p>
-        <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/"><b>🌐 Demo en vivo</b></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/diegoalegil/fuerteventuraprotagonista-mapa"><b>Ver repo →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+  <table align="center">
+    <tr>
+      <td width="50%" valign="middle" align="center">
+        <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/">
+          <img src="images/fuerteventura-mapa.jpg" alt="Mapa de agentes Fuerteventura Protagonista · prototipo con paleta marrón" width="100%" />
+        </a>
+      </td>
+      <td width="50%" valign="middle">
+        <h3>🏝️ Mapa de agentes — Fuerteventura Protagonista</h3>
+        <p>
+          <b>Mismo enfoque, otra isla.</b> Prototipo del mapa público de <b>Fuerteventura Protagonista</b> (Cabildo de Fuerteventura + ULL). Misma base técnica que el de Canarias Convive pero con <b>paleta marrón/tierra</b> y tipografía <b>Libre Baskerville</b> para casar con la identidad del programa.
+        </p>
+        <p>
+          <b>HTML, CSS y JavaScript vanilla</b> sobre <b>Mapbox GL JS 3.21</b> + <b>Turf.js</b> para las geometrías 3D. <b>18 puntos placeholder</b> (ayuntamientos, Cabildo, entidades públicas) a la espera de importar el back-office real.
+        </p>
+        <p>
+          Mapbox GL JS · Turf.js · JavaScript · HTML5 · CSS3 · GitHub Pages
+        </p>
+        <p>
+          Demo: diegoalegil.github.io/fuerteventuraprotagonista-mapa
+          · Repo: github.com/diegoalegil/fuerteventuraprotagonista-mapa
+        </p>
+      </td>
+    </tr>
+  </table>
+─────────────────────────────────────────────────────────────────────────────────────── -->
 
 ---
 
