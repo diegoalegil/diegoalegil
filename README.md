@@ -4,8 +4,8 @@
   ───────────────────────────────────────────────────────────────────────────
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → título, subtítulo y botones CTA
-   ✏️ PRODUCCIÓN    → bloque destacado (Canarias Convive · en producción real)
    ✏️ BIO           → bio principal y bio extendida (<details>)
+   ✏️ PRODUCCIÓN    → bloque destacado (Canarias Convive · en producción real)
    ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
    ✏️ TRABAJANDO    → sección oculta (Fuerteventura, reactivar al salir a prod)
    ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
@@ -40,6 +40,24 @@
     <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
   </a>
 </div>
+
+---
+
+<!-- ─── BIO  ✏️ ──────────────────────────────────────────────────────────── -->
+## 🧠 Sobre mí
+
+> Programar es la excusa. Lo que me engancha es entender **por qué algo funciona** — o por qué se rompe a las 3 de la mañana.
+
+<details>
+  <summary><b>Saber más</b></summary>
+  <br />
+
+  Estudio **Desarrollo de Aplicaciones Multiplataforma** en Tenerife. Mi interés real está en **backend, bases de datos y arquitectura** — no solo en hacer que funcione, sino en entender por qué funciona.
+
+  No soy el más rápido de la clase, pero suelo ser el último en irse del problema. Por eso prefiero un proyecto que entiendo a fondo antes que diez que entiendo por encima.
+
+  Ahora mismo trasteando con **sistemas distribuidos** (CockroachDB), **PL/pgSQL avanzado** y **APIs REST** en Java y Node.js.
+</details>
 
 ---
 
@@ -84,24 +102,6 @@
     </td>
   </tr>
 </table>
-
----
-
-<!-- ─── BIO  ✏️ ──────────────────────────────────────────────────────────── -->
-## 🧠 Sobre mí
-
-> Programar es la excusa. Lo que me engancha es entender **por qué algo funciona** — o por qué se rompe a las 3 de la mañana.
-
-<details>
-  <summary><b>Saber más</b></summary>
-  <br />
-
-  Estudio **Desarrollo de Aplicaciones Multiplataforma** en Tenerife. Mi interés real está en **backend, bases de datos y arquitectura** — no solo en hacer que funcione, sino en entender por qué funciona.
-
-  No soy el más rápido de la clase, pero suelo ser el último en irse del problema. Por eso prefiero un proyecto que entiendo a fondo antes que diez que entiendo por encima.
-
-  Ahora mismo trasteando con **sistemas distribuidos** (CockroachDB), **PL/pgSQL avanzado** y **APIs REST** en Java y Node.js.
-</details>
 
 ---
 
