@@ -51,7 +51,7 @@
 <table align="center">
   <tr>
     <td width="48%" valign="middle" align="center">
-      <a href="https://canariasconvive.com/mapa-de-agentes/">
+      <a href="https://canariasconvive.com/mapa-interactivo/">
         <img src="images/canariasconvive-mapa.jpg" alt="Mapa de agentes Canarias Convive en producción" width="100%" />
       </a>
     </td>
@@ -62,7 +62,7 @@
       </p>
       <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
       <p>
-        El mapa público que sirve <a href="https://canariasconvive.com/mapa-de-agentes/"><b>canariasconvive.com</b></a> en producción. Una plataforma del <b>Gobierno de Canarias + ULL</b> depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
+        El mapa público que sirve <a href="https://canariasconvive.com/mapa-interactivo/"><b>canariasconvive.com</b></a> en producción. Una plataforma del <b>Gobierno de Canarias + ULL</b> depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
       </p>
       <p>
         <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
@@ -75,7 +75,7 @@
         <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
       </p>
       <p>
-        <a href="https://canariasconvive.com/mapa-de-agentes/"><b>🟢 Ver en producción</b></a>
+        <a href="https://canariasconvive.com/mapa-interactivo/"><b>🟢 Ver en producción</b></a>
         &nbsp;·&nbsp;
         <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>Demo</b></a>
         &nbsp;·&nbsp;
