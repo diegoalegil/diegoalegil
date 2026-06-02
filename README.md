@@ -32,12 +32,8 @@
   <h1>Hola, soy Diego 👋🏻</h1>
   <p><b>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</b></p>
   <br />
-  <a href="https://diegoalegil.github.io/">
-    <img src="https://img.shields.io/badge/✨_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
-  </a>
-  <a href="mailto:diegogildam@gmail.com">
-    <img src="images/gmail-badge.svg" alt="Gmail" height="36" />
-  </a>
+  <a href="https://diegoalegil.github.io/"><img src="https://img.shields.io/badge/✨_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" /></a>
+  <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
 </div>
 
 ---
