@@ -10,3 +10,11 @@ Thumbs.db
 *~
 
 # Worktrees y estado local de herramientas de desarrollo
+
+# Fuentes de video locales usadas para generar assets WebP
+images/*.mov
+
+# Bundles de diseño usados como fuente para renderizar los assets del README
+images/Banner Github Animado/
+images/Logo Mapa Canarias Convive/
+images/Logo animeshowdown para repo de GitHub/
