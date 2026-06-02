@@ -16,7 +16,7 @@
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="images/banner.jpg" alt="Diego Gil · banner" width="900" />
+  <img src="images/banner-tokyo.webp" alt="Diego Gil · banner Tokyo Night animado" width="900" />
 </p>
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
@@ -70,7 +70,7 @@
   <tr>
     <td width="48%" valign="middle" align="center">
       <a href="https://canariasconvive.com/mapa-interactivo/">
-        <img src="images/canariasconvive-mapa.jpg" alt="Mapa de agentes Canarias Convive en producción" width="100%" />
+        <img src="images/canariasconvive-logo.webp" alt="Mapa de agentes Canarias Convive en producción" width="100%" />
       </a>
     </td>
     <td width="52%" valign="middle">
@@ -115,7 +115,7 @@
   <tr>
     <td width="32%" valign="top" align="center">
       <a href="https://animeshowdown.dev">
-        <img src="images/reze.jpg" alt="AnimeShowdown" width="100%" />
+        <img src="images/animeshowdown-banner.webp" alt="AnimeShowdown — banner animado" width="100%" />
       </a>
     </td>
     <td width="68%" valign="top">
