@@ -4,7 +4,6 @@
   ───────────────────────────────────────────────────────────────────────────
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → título, subtítulo y botones CTA
-   ✏️ BIO           → bio principal y bio extendida (<details>)
    ✏️ PRODUCCIÓN    → bloque destacado (Canarias Convive · en producción real)
    ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
    ✏️ TRABAJANDO    → sección oculta (Fuerteventura, reactivar al salir a prod)
@@ -34,30 +33,13 @@
   <p><b>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</b></p>
   <br />
   <a href="https://diegoalegil.github.io/">
-    <img src="https://img.shields.io/badge/📄_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
+    <img src="https://img.shields.io/badge/✨_CONÓCEME-CC0808?style=for-the-badge&labelColor=CC0808" alt="Conóceme" height="36" />
   </a>
   <a href="mailto:diegogildam@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" height="36" />
+    <img src="https://img.shields.io/badge/Gmail-1a1b27?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMTkyIDE5MiI%2BPHBhdGggZmlsbD0idXJsKCNhKSIgZD0iTTE0NiA0NGgzOHYxMTBjMCA2LjYyNy01LjM3MyAxMi0xMiAxMmgtMjBhNiA2IDAgMCAxLTYtNnoiLz48cGF0aCBmaWxsPSIjZmM0MTNkIiBkPSJNNDYgNDRIOHYxMTBjMCA2LjYyNyA1LjM3MyAxMiAxMiAxMmgyMGE2IDYgMCAwIDAgNi02eiIvPjxwYXRoIGZpbGw9InVybCgjYikiIGQ9Ik0zOS4yMjYgMzAuNDU2Yy04LjAzMy02Ljc1Mi0yMC4wMTgtNS43MTQtMjYuNzcgMi4zMTktNi43NTIgOC4wMzItNS43MTQgMjAuMDE3IDIuMzE5IDI2Ljc3bDc2LjA3OCA2My45NDlhOCA4IDAgMCAwIDEwLjI5NSAwbDc2LjA3OC02My45NWM4LjAzMi02Ljc1MiA5LjA3LTE4LjczNyAyLjMxOC0yNi43Ny02Ljc1Mi04LjAzMi0xOC43MzctOS4wNy0yNi43NjktMi4zMThMOTYgNzguMTh6Ii8%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMTY1IiB4Mj0iMTY1IiB5MT0iNDQiIHkyPSIxNjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNjBkNjczIi8%2BPHN0b3Agb2Zmc2V0PSIuMTciIHN0b3AtY29sb3I9IiM0MmM4NjgiLz48c3RvcCBvZmZzZXQ9Ii4zOSIgc3RvcC1jb2xvcj0iIzBlYmM1ZiIvPjxzdG9wIG9mZnNldD0iLjYyIiBzdG9wLWNvbG9yPSIjMDBhOWJiIi8%2BPHN0b3Agb2Zmc2V0PSIuODYiIHN0b3AtY29sb3I9IiMzYzkwZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMTg2ZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjgiIHgyPSIxODQiIHkxPSI0Ni4xMyIgeTI9IjQ2LjEzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI%2BPHN0b3Agb2Zmc2V0PSIuMDgiIHN0b3AtY29sb3I9IiNmZjYzYTAiLz48c3RvcCBvZmZzZXQ9Ii4zIiBzdG9wLWNvbG9yPSIjZmM0MTNkIi8%2BPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZjNDEzZCIvPjxzdG9wIG9mZnNldD0iLjY1IiBzdG9wLWNvbG9yPSIjZmM0MTNkIi8%2BPHN0b3Agb2Zmc2V0PSIuNzIiIHN0b3AtY29sb3I9IiNmYzVjMzAiLz48c3RvcCBvZmZzZXQ9Ii44NiIgc3RvcC1jb2xvcj0iI2ZlYjEwYyIvPjxzdG9wIG9mZnNldD0iLjkxIiBzdG9wLWNvbG9yPSIjZmVjNzAwIi8%2BPHN0b3Agb2Zmc2V0PSIuOTYiIHN0b3AtY29sb3I9IiNmZmRiMGYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4%3D
+" alt="Gmail" height="36" />
   </a>
 </div>
-
----
-
-<!-- ─── BIO  ✏️ ──────────────────────────────────────────────────────────── -->
-## 🧠 Sobre mí
-
-> Programar es la excusa. Lo que me engancha es entender **por qué algo funciona** — o por qué se rompe a las 3 de la mañana.
-
-<details>
-  <summary><b>Saber más</b></summary>
-  <br />
-
-  Estudio **Desarrollo de Aplicaciones Multiplataforma** en Tenerife. Mi interés real está en **backend, bases de datos y arquitectura** — no solo en hacer que funcione, sino en entender por qué funciona.
-
-  No soy el más rápido de la clase, pero suelo ser el último en irse del problema. Por eso prefiero un proyecto que entiendo a fondo antes que diez que entiendo por encima.
-
-  Ahora mismo trasteando con **sistemas distribuidos** (CockroachDB), **PL/pgSQL avanzado** y **APIs REST** en Java y Node.js.
-</details>
 
 ---
 
