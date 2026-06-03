@@ -4,6 +4,11 @@ name: Update profile assets
 # actividad animado + tarjetas de stats) en la rama `output`, en un único paso
 # de publicación. Un solo publicador evita que dos workflows se pisen los
 # ficheros entre sí en la misma rama (keep_files no es fiable para coexistir).
+#
+# Degradación con gracia: `dist/` se siembra con la última copia buena de la
+# rama `output` antes de regenerar. Si un servicio externo cae, ese asset
+# conserva su versión anterior (solo emite ::warning::) y el resto se actualiza;
+# la ejecución NO falla por la caída de un único proveedor.
 
 on:
   schedule:
@@ -29,8 +34,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
+      # Trae la última copia buena de los assets ya publicados. Si la rama
+      # `output` aún no existe (primera ejecución), no pasa nada.
+      - name: Seed last-good assets from output branch
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        continue-on-error: true
+        with:
+          ref: output
+          path: _output
+
+      - name: Prepare dist with last-good copies
+        run: |
+          mkdir -p dist
+          if [ -d _output ]; then
+            cp -f _output/*.svg dist/ 2>/dev/null || true
+            echo "Sembrado dist/ con $(ls dist/*.svg 2>/dev/null | wc -l | tr -d ' ') copias previas"
+          fi
+
       - name: Generate snake animation
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        continue-on-error: true
         with:
           github_user_name: diegoalegil
           outputs: |
@@ -40,28 +63,34 @@ jobs:
       - name: Build activity graph + stats cards
         run: |
           mkdir -p dist
+          # Descarga a un fichero temporal y SOLO sobrescribe el destino si la
+          # descarga tiene contenido; si falla, mantiene la última copia buena.
+          fetch() {
+            local url="$1" out="$2"
+            if curl -sL --fail --max-time 30 "$url" -o /tmp/dl.svg && [ -s /tmp/dl.svg ]; then
+              mv /tmp/dl.svg "$out"
+              echo "OK: actualizado $out"
+            else
+              echo "::warning::No se pudo actualizar $out; se mantiene la última copia buena"
+            fi
+          }
           # Gráfico de actividad animado (post-procesado con el script propio).
-          curl -sL --fail --max-time 30 \
+          if curl -sL --fail --max-time 30 \
             "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=7AA2F7&line=BB9AF7&point=F7768E" \
-            -o /tmp/raw.svg
-          test -s /tmp/raw.svg
-          python3 scripts/inject-activity-animation.py /tmp/raw.svg dist/activity.svg
-          # Tarjetas de stats: snapshot diario para no depender del servicio en cada visita
-          # (si el proveedor cae, el perfil sigue mostrando la última copia buena).
-          curl -sL --fail --max-time 30 \
-            "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" \
-            -o dist/stats.svg
-          curl -sL --fail --max-time 30 \
-            "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" \
-            -o dist/repos-per-language.svg
-          curl -sL --fail --max-time 30 \
-            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" \
-            -o dist/profile-details.svg
-          curl -sL --fail --max-time 30 \
-            "https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" \
-            -o dist/streak.svg
-          for f in dist/activity.svg dist/stats.svg dist/repos-per-language.svg dist/profile-details.svg dist/streak.svg; do
-            test -s "$f" || { echo "Asset vacío o ausente: $f"; exit 1; }
+            -o /tmp/raw.svg && [ -s /tmp/raw.svg ]; then
+            python3 scripts/inject-activity-animation.py /tmp/raw.svg dist/activity.svg
+            echo "OK: actualizado dist/activity.svg"
+          else
+            echo "::warning::No se pudo actualizar dist/activity.svg; se mantiene la última copia buena"
+          fi
+          # Tarjetas de stats: snapshot diario para no depender del servicio en cada visita.
+          fetch "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" dist/stats.svg
+          fetch "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" dist/repos-per-language.svg
+          fetch "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" dist/profile-details.svg
+          fetch "https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" dist/streak.svg
+          # Aviso (no fatal) si algún asset sigue ausente: ni fresco ni copia buena.
+          for f in dist/activity.svg dist/stats.svg dist/repos-per-language.svg dist/profile-details.svg dist/streak.svg dist/github-snake.svg dist/github-snake-dark.svg; do
+            [ -s "$f" ] || echo "::warning::Asset ausente tras el build (sin copia previa): $f"
           done
 
       - name: Publish all assets to output branch
