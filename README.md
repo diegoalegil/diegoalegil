@@ -20,9 +20,9 @@
 
 <!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
-  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
-  <img src="https://komarev.com/ghpvc/?username=diegoalegil&style=flat&label=visitas&labelColor=1a1b27&color=f7768e" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat-square&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
+  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat-square&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
+  <img src="https://komarev.com/ghpvc/?username=diegoalegil&style=flat-square&label=visitas&labelColor=1a1b27&color=f7768e" alt="profile views" />
 </p>
 
 <br />
@@ -31,6 +31,7 @@
 <div align="center">
   <h1>Hola, soy Diego 👋🏻</h1>
   <p><b>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</b></p>
+  <p><i>Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
   <br />
   <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
   <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
@@ -46,9 +47,7 @@
 <table align="center">
   <tr>
     <td width="48%" valign="middle" align="center">
-      <a href="https://canariasconvive.com/mapa-interactivo/">
-        <img src="images/canarias-convive.svg" alt="Mapa de agentes Canarias Convive en producción" width="100%" />
-      </a>
+      <a href="https://canariasconvive.com/mapa-interactivo/"><img src="images/canarias-convive.svg" alt="Mapa de agentes Canarias Convive en producción" width="100%" /></a>
     </td>
     <td width="52%" valign="middle">
       <p>
@@ -91,9 +90,7 @@
 <table align="center">
   <tr>
     <td width="32%" valign="top" align="center">
-      <a href="https://animeshowdown.dev">
-        <img src="images/AnimeShowdown-banner.svg" alt="AnimeShowdown — banner animado" width="100%" />
-      </a>
+      <a href="https://animeshowdown.dev"><img src="images/AnimeShowdown-banner.svg" alt="AnimeShowdown — banner animado" width="100%" /></a>
     </td>
     <td width="68%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
@@ -101,18 +98,10 @@
         <b>Plataforma full-stack de duelos, torneos y ranking ELO de personajes anime.</b> Frontend, API, BBDD, auth y despliegue en producción real — construido de cero.
       </p>
       <p>
-        <a href="https://animeshowdown.dev">
-          <img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web live" height="32" />
-        </a>
-        <a href="https://github.com/diegoalegil/AnimeShowdown">
-          <img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="32" />
-        </a>
-        <a href="https://api.animeshowdown.dev">
-          <img src="https://img.shields.io/badge/API-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="API live" height="32" />
-        </a>
-        <a href="https://api.animeshowdown.dev/swagger-ui/index.html">
-          <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" height="32" />
-        </a>
+        <a href="https://animeshowdown.dev"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web live" height="32" /></a>
+        <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="32" /></a>
+        <a href="https://api.animeshowdown.dev"><img src="https://img.shields.io/badge/API-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="API live" height="32" /></a>
+        <a href="https://api.animeshowdown.dev/swagger-ui/index.html"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" height="32" /></a>
       </p>
       <ul>
         <li><b>Ranking ELO</b> que reordena en tiempo real con cada votación y cierre de torneo.</li>
@@ -146,9 +135,7 @@
   <table align="center">
     <tr>
       <td width="50%" valign="middle" align="center">
-        <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/">
-          <img src="images/fuerteventura-mapa.jpg" alt="Mapa de agentes Fuerteventura Protagonista · prototipo con paleta marrón" width="100%" />
-        </a>
+        <a href="https://diegoalegil.github.io/fuerteventuraprotagonista-mapa/"><img src="images/fuerteventura-mapa.jpg" alt="Mapa de agentes Fuerteventura Protagonista · prototipo con paleta marrón" width="100%" /></a>
       </td>
       <td width="50%" valign="middle">
         <h3>🏝️ Mapa de agentes — Fuerteventura Protagonista</h3>
@@ -214,12 +201,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,nodejs,php,postgres,mysql,js,html,css,wordpress,linux,git,github&perline=12" alt="Tecnologías: Java, Node.js, PHP, PostgreSQL, MySQL, JavaScript, HTML, CSS, WordPress, Linux, Git, GitHub" />
-  </a>
-</p>
-
 ---
 
 <!-- ─── APRENDIENDO  ✏️ ──────────────────────────────────────────────────── -->
@@ -238,7 +219,7 @@
 <!-- ─── DESTACADOS  ✏️ ──────────────────────────────────────────────────── -->
 ## 💾 Proyectos destacados
 
-<table>
+<table align="center">
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">💳 TinerPay</h3>
@@ -319,7 +300,7 @@
   vez, lánzalo desde Actions → Update profile assets → Run workflow.
 ─────────────────────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" alt="Serpiente recorriendo mi gráfico de contribuciones" />
 </p>
 
 ---
@@ -364,11 +345,6 @@
       <td width="68%" valign="middle">
         <p>
           <i>"Todo lo que te rodea que llamas vida fue hecho por gente que <b>no era más inteligente que tú</b> y lo puedes cambiar, puedes influenciar, puedes <b>construir tus propias cosas que otra gente pueda usar</b>."</i>
-        </p>
-        <br />
-        <p>
-          <i>"Todos tenemos la capacidad de hacer grandes cosas.<br/>
-          <b>No debemos poner límites a nuestra imaginación.</b>"</i>
         </p>
         <br />
         <p align="right">
