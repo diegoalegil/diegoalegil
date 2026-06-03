@@ -136,14 +136,12 @@
   </tr>
 </table>
 
----
-
 <!-- ─── 🚧 ESTOY TRABAJANDO EN — sección oculta hasta que Fuerteventura entre en producción ──
      Canarias Convive se promovió a la sección "🚀 En producción" (arriba del todo).
      La tarjeta de Fuerteventura Protagonista (todavía prototipo, con datos placeholder)
      queda guardada aquí para reactivar la sección cuando el proyecto esté listo.
-     PARA REACTIVAR: retira este wrapper de comentario y restaura el encabezado
-     "## 🚧 Estoy trabajando en".
+     PARA REACTIVAR: retira este wrapper de comentario, restaura el encabezado
+     "## 🚧 Estoy trabajando en" y añade un separador "---" justo encima.
 
   <table align="center">
     <tr>
