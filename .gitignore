@@ -11,7 +11,8 @@ Thumbs.db
 
 # Worktrees y estado local de herramientas de desarrollo
 shots/
-node_modules/
+# sin barra: aquí node_modules es un symlink al de diegoalegil.github.io
+node_modules
 
 # Fuentes de video locales usadas para generar assets WebP
 images/*.mov
