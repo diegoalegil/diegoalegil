@@ -208,9 +208,9 @@
 
 <table align="center">
   <tr>
-    <td>🐘 <b>PL/pgSQL avanzado</b><br/><sub>triggers, procedimientos, ACID</sub></td>
-    <td>🌍 <b>Sistemas distribuidos</b><br/><sub>réplicas y consenso con CockroachDB</sub></td>
-    <td>🔌 <b>APIs REST</b><br/><sub>arquitectura y diseño en Java / Node.js</sub></td>
+    <td width="33%" align="center" valign="top">🐘 <b>PL/pgSQL avanzado</b><br/><sub>triggers, procedimientos, ACID</sub></td>
+    <td width="34%" align="center" valign="top">🌍 <b>Sistemas distribuidos</b><br/><sub>réplicas y consenso con CockroachDB</sub></td>
+    <td width="33%" align="center" valign="top">🔌 <b>APIs REST</b><br/><sub>arquitectura y diseño en Java / Node.js</sub></td>
   </tr>
 </table>
 
@@ -284,14 +284,21 @@
 
 ## 📊 Stats
 
+<!-- Alturas calculadas para que las dos filas midan lo mismo y queden
+     alineadas (el CSS de GitHub nunca amplía una imagen por encima de su
+     tamaño natural; el height solo sirve para REDUCIR):
+     fila 1 → stats 340×200 + streak 400×195, ambas a 195 px = 331 + 400 ≈ 736
+     fila 2 → repos 340×200 + details 700×200, ambas a 141 px = 240 + 494 ≈ 737
+     Si cambian los SVG de la rama output, recalcula:
+     alto fila 2 = ancho fila 1 / (suma de ratios ancho/alto de la fila 2). -->
 <p align="center">
-  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
-  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
+  <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
+  <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
-  <img height="180" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/profile-details.svg" alt="Detalles del perfil de GitHub de Diego" />
+  <img height="141" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
+  <img height="141" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/profile-details.svg" alt="Detalles del perfil de GitHub de Diego" />
 </p>
 
 <!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
@@ -300,7 +307,10 @@
   vez, lánzalo desde Actions → Update profile assets → Run workflow.
 ─────────────────────────────────────────────────────────────────────────── -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" alt="Serpiente recorriendo mi gráfico de contribuciones" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake.svg" alt="Serpiente recorriendo mi gráfico de contribuciones" />
+  </picture>
 </p>
 
 ---

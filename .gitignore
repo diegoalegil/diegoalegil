@@ -10,6 +10,8 @@ Thumbs.db
 *~
 
 # Worktrees y estado local de herramientas de desarrollo
+shots/
+node_modules/
 
 # Fuentes de video locales usadas para generar assets WebP
 images/*.mov
