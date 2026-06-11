@@ -56,11 +56,12 @@
         <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
       </p>
       <p>
-        <!-- salto forzado: 3+2 deterministas; el wrap natural daba 4+1 ragged -->
+        <!-- 2+3 forzado (líneas ~194/~215px): Mapbox lidera y aguanta sin
+             re-romper hasta contenedor ~530px (ventanas de 900px) -->
         <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
         <br />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
         <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
       </p>
@@ -94,10 +95,12 @@
         <b>Plataforma full-stack de duelos, torneos y ranking ELO de personajes anime.</b> Frontend, API, BBDD, auth y despliegue en producción real — construido de cero.
       </p>
       <p>
+        <!-- 3 CTAs, no 4: con ventanas <1000px el contenedor del README baja
+             a ~530px y el cuarto botón quedaba huérfano en su propia línea.
+             API DOCS apunta al Swagger UI (la landing que más vende). -->
         <a href="https://animeshowdown.dev"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web live" height="28" /></a>
         <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="28" /></a>
-        <a href="https://api.animeshowdown.dev"><img src="https://img.shields.io/badge/API-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="API live" height="28" /></a>
-        <a href="https://api.animeshowdown.dev/swagger-ui/index.html"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" height="28" /></a>
+        <a href="https://api.animeshowdown.dev/swagger-ui/index.html"><img src="https://img.shields.io/badge/API_DOCS-6DB33F?style=for-the-badge&logo=swagger&logoColor=white" alt="API en vivo documentada con Swagger UI" height="28" /></a>
       </p>
       <ul>
         <li><b>Ranking ELO</b> que reordena en tiempo real con cada votación y cierre de torneo.</li>
@@ -106,14 +109,14 @@
         <li><b>API REST</b> documentada con OpenAPI 3 + Swagger UI · desplegada en <b>Cloudflare Pages + Railway + Neon</b>.</li>
       </ul>
       <p>
+        <!-- 8 badges en 4+4 forzado (líneas de ~374 y ~262px): aguanta sin
+             re-romper desde contenedor ~400px. Vite y Framer Motion fuera:
+             tooling/animación que diluía el posicionamiento backend. -->
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 3" />
-        <br />
-        <!-- salto forzado: 5 frontend + 5 backend/infra; sin él, 846px da 6+4 y 830px da 5+5 -->
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <br />
         <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
         <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
         <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
@@ -176,12 +179,12 @@
     <td valign="top">
       <h3 align="center">🗄️ Bases de datos</h3>
       <p align="center">
-        <!-- salto forzado: los 3 badges suman ~371px y la celda da ~389px;
-             tan al límite, el wrap baila entre 3 y 2+1 según el render -->
+        <!-- 2+1 forzado con la línea larga a ~223px: aguanta también los
+             contenedores intermedios (ventana 900px → celda ~239px útiles) -->
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white" alt="CockroachDB" />
-        <br />
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+        <br />
+        <img src="https://img.shields.io/badge/CockroachDB-6933FF?style=for-the-badge&logo=cockroachlabs&logoColor=white" alt="CockroachDB" />
       </p>
     </td>
   </tr>
@@ -189,11 +192,12 @@
     <td valign="top">
       <h3 align="center">🌐 Web</h3>
       <p align="center">
-        <!-- salto forzado: 2+2 simétrico; el wrap natural daba 3+1 ragged -->
+        <!-- 2+2 forzado, emparejado para que la línea larga (~219px) quepa
+             también en los contenedores intermedios (~239px útiles) -->
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
-        <br />
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        <br />
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
       </p>
     </td>
