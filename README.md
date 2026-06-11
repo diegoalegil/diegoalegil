@@ -8,30 +8,24 @@
    ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
    ✏️ TRABAJANDO    → sección oculta (Fuerteventura, reactivar al salir a prod)
    ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
-   ✏️ DESTACADOS    → tabla 2x2 (rotar cuando cambien tus repos top)
-   ✏️ CIERRE        → frase final
+   ✏️ DESTACADOS    → fila de 2 + línea extra (rotar cuando cambien tus repos top)
+   ✏️ CIERRE        → frase final + CTA repetido
 ═══════════════════════════════════════════════════════════════════════════════
 -->
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
+<!-- Compacto a propósito (560px): el primer viewport debe llegar hasta el
+     arranque de "En producción", que es lo que vende. Sin contadores de
+     followers/stars/visitas: números pequeños son prueba social negativa. -->
 <p align="center">
-  <img src="images/banner-tokyo.svg" alt="Diego Gil · banner Tokyo Night animado" width="900" />
+  <img src="images/banner-tokyo.svg" alt="Diego Gil · banner Tokyo Night animado" width="560" />
 </p>
-
-<!-- ─── CONTADORES VIVOS ─────────────────────────────────────────────────── -->
-<p align="center">
-  <img src="https://img.shields.io/github/followers/diegoalegil?style=flat-square&labelColor=1a1b27&color=7aa2f7&label=followers" alt="followers" />
-  <img src="https://img.shields.io/github/stars/diegoalegil?style=flat-square&labelColor=1a1b27&color=bb9af7&label=stars" alt="stars" />
-  <img src="https://komarev.com/ghpvc/?username=diegoalegil&style=flat-square&label=visitas&labelColor=1a1b27&color=f7768e" alt="profile views" />
-</p>
-
-<br />
 
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
 <div align="center">
   <h1>Hola, soy Diego 👋🏻</h1>
-  <p><b>Estudiante DAM · Backend, bases de datos y obsesiones útiles · Tenerife 🇮🇨</b></p>
-  <p><i>Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
+  <p><b>Backend y bases de datos · código en producción para el Gobierno de Canarias · Tenerife 🇮🇨</b></p>
+  <p><i>Estudiante de DAM. Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
   <br />
   <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
   <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
@@ -262,68 +256,29 @@
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🏋️ gimnasio-app</h3>
-      <p align="center">
-        Aplicación de <b>gestión de gimnasio</b> en Java. POO aplicada a un dominio real: socios, rutinas, pagos.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/POO-ED8B00?style=flat-square" alt="Programación orientada a objetos" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/diegoalegil/gimnasio-app"><b>Ver código →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🏎️ miniature-car-shop</h3>
-      <p align="center">
-        Tienda <b>WooCommerce premium</b> de miniaturas con diseño oscuro, animaciones y módulos JS/PHP propios sobre WordPress.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/diegoalegil/miniature-car-shop"><b>Ver código →</b></a>
-      </p>
-    </td>
-  </tr>
 </table>
+
+<p align="center">
+  <sub>También: <a href="https://github.com/diegoalegil/miniature-car-shop">🏎️ <b>miniature-car-shop</b></a> — tienda WooCommerce premium con diseño oscuro y módulos JS/PHP propios.</sub>
+</p>
 
 ---
 
 ## 📊 Stats
 
-<!-- Alturas calculadas para que las dos filas midan lo mismo y queden
-     alineadas (el CSS de GitHub nunca amplía una imagen por encima de su
-     tamaño natural; el height solo sirve para REDUCIR):
-     fila 1 → stats 340×200 + streak 400×195, ambas a 195 px = 331 + 400 ≈ 736
-     fila 2 → repos 340×200 + details 700×200, ambas a 141 px = 240 + 494 ≈ 737
-     Si cambian los SVG de la rama output, recalcula:
-     alto fila 2 = ancho fila 1 / (suma de ratios ancho/alto de la fila 2). -->
+<!-- 3 cards: stats + streak arriba (los datos que venden: commits, PRs,
+     racha), donut de lenguajes centrado debajo. Sin profile-details: era
+     redundante y aireaba "Joined 8 months ago". Sin snake: decoración.
+     Todas a height 195 (el CSS de GitHub nunca amplía una imagen por encima
+     de su tamaño natural; el height solo sirve para REDUCIR):
+     fila 1 → stats 340×200 + streak 400×195 a 195 px = 331 + 400 ≈ 736 ≤ 846 -->
 <p align="center">
   <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
   <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
 </p>
 
 <p align="center">
-  <img height="141" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
-  <img height="141" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/profile-details.svg" alt="Detalles del perfil de GitHub de Diego" />
-</p>
-
-<!-- ─── SNAKE ANIMATION ──────────────────────────────────────────────────────
-  La snake la genera el workflow .github/workflows/activity-graph.yml ("Update
-  profile assets"), que publica todos los assets en la rama output. La primera
-  vez, lánzalo desde Actions → Update profile assets → Run workflow.
-─────────────────────────────────────────────────────────────────────────── -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/github-snake.svg" alt="Serpiente recorriendo mi gráfico de contribuciones" />
-  </picture>
+  <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
 </p>
 
 ---
@@ -335,8 +290,8 @@
      para inyectar animaciones SMIL Apple-style: stroke-draw de la línea
      con easing ease-in-out, fade-in del área tras dibujarse, y aparición
      escalonada de los puntos con un toque de spring. El SVG resultante
-     se publica en la rama output (junto con la snake y las tarjetas de
-     stats) para que las animaciones sobrevivan al paso por el CDN de GitHub.
+     se publica en la rama output (junto con el resto de assets) para que
+     las animaciones sobrevivan al paso por el CDN de GitHub.
 ─────────────────────────────────────────────────────────────────────── -->
 ## 📈 Actividad
 
@@ -347,9 +302,11 @@
 
 <!-- ─── MANTENIMIENTO (notas internas, no se renderizan) ──────────────────
   - Zonas editables marcadas con ✏️ en los comentarios HTML.
-  - Snake, gráfico de actividad y tarjetas de stats los genera y publica en la
+  - Gráfico de actividad y tarjetas de stats los genera y publica en la
     rama output el workflow .github/workflows/activity-graph.yml ("Update
     profile assets") cada noche. Primera vez: Actions → Run workflow.
+    El workflow sigue publicando snake y profile-details aunque el README
+    ya no los muestra (recorte editorial: el README vende, no decora).
   - Las imágenes viven en images/. Mantén cualquier nueva por debajo de
     ~500 KB (banner máx 1600 px de ancho, ilustraciones pequeñas a 800 px).
   - Acciones de terceros del workflow pineadas por SHA por seguridad de
@@ -378,7 +335,11 @@
   </table>
   <br />
   <br />
-  <a href="mailto:diegogildam@gmail.com">📨 diegogildam@gmail.com</a>
-  &nbsp;·&nbsp;
-  <a href="https://diegoalegil.github.io/">🌐 diegoalegil.github.io</a>
+  <!-- CTA repetido: quien llegó hasta aquí ya está medio convencido;
+       este es el momento exacto de darle el botón -->
+  <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
+  <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
+  <p>
+    <sub><a href="mailto:diegogildam@gmail.com">diegogildam@gmail.com</a>&nbsp;·&nbsp;<a href="https://diegoalegil.github.io/">diegoalegil.github.io</a></sub>
+  </p>
 </div>
