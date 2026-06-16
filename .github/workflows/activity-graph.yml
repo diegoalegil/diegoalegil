@@ -52,7 +52,7 @@ jobs:
           fi
 
       - name: Generate snake animation
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         continue-on-error: true
         with:
           github_user_name: diegoalegil
@@ -78,14 +78,27 @@ jobs:
           if curl -sL --fail --max-time 30 \
             "https://github-readme-activity-graph.vercel.app/graph?username=diegoalegil&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b27&color=7AA2F7&line=BB9AF7&point=F7768E" \
             -o /tmp/raw.svg && [ -s /tmp/raw.svg ]; then
-            python3 scripts/inject-activity-animation.py /tmp/raw.svg dist/activity.svg
-            echo "OK: actualizado dist/activity.svg"
+            # El inyector va como condición del if: si falla (p.ej. el upstream
+            # cambia el formato del SVG y exit 1), degrada igual que una caída de
+            # red en vez de que `-e` tumbe el step y se salte la publicación de
+            # TODOS los assets. El script no escribe el destino hasta validar, así
+            # que la copia last-good de dist/activity.svg queda intacta.
+            if python3 scripts/inject-activity-animation.py /tmp/raw.svg dist/activity.svg; then
+              echo "OK: actualizado dist/activity.svg"
+            else
+              echo "::warning::El inyector falló; se mantiene la última copia buena de dist/activity.svg"
+            fi
           else
             echo "::warning::No se pudo actualizar dist/activity.svg; se mantiene la última copia buena"
           fi
           # Tarjetas de stats: snapshot diario para no depender del servicio en cada visita.
           fetch "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=diegoalegil&theme=tokyonight" dist/stats.svg
           fetch "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=diegoalegil&theme=tokyonight" dist/repos-per-language.svg
+          # El servicio emite a veces el título del donut con `fill: red` (una
+          # regresión suya intermitente: el resto de cards usan #70a5fd). Lo
+          # normalizamos al azul tokyonight para que la tarjeta quede en paleta
+          # aunque el proveedor recaiga. Solo afecta al <text> del título.
+          [ -s dist/repos-per-language.svg ] && sed -i 's/fill: *red/fill: #70a5fd/g' dist/repos-per-language.svg || true
           fetch "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=diegoalegil&theme=tokyonight" dist/profile-details.svg
           fetch "https://streak-stats.demolab.com?user=diegoalegil&theme=tokyonight&hide_border=true&locale=es&card_width=400" dist/streak.svg
           # Aviso (no fatal) si algún asset sigue ausente: ni fresco ni copia buena.

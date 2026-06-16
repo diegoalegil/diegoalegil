@@ -96,12 +96,14 @@
         <b>Plataforma full-stack de duelos, torneos y ranking ELO de personajes anime.</b> Frontend, API, BBDD, auth y despliegue en producción real — construido de cero.
       </p>
       <p>
-        <!-- 3 CTAs, no 4: con ventanas <1000px el contenedor del README baja
-             a ~530px y el cuarto botón quedaba huérfano en su propia línea.
-             API DOCS apunta al Swagger UI (la landing que más vende). -->
-        <a href="https://animeshowdown.dev"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web live" height="28" /></a>
-        <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="28" /></a>
-        <a href="https://api.animeshowdown.dev/swagger-ui/index.html"><img src="https://img.shields.io/badge/API_DOCS-6DB33F?style=for-the-badge&logo=swagger&logoColor=white" alt="API en vivo documentada con Swagger UI" height="28" /></a>
+        <!-- 2 CTAs, ambos públicos y verificados (200, sin muro de auth). Se
+             retiró el botón de Swagger/API: /swagger-ui y /v3/api-docs están
+             tras el login OAuth de Spring Security (302 → /login "Please sign
+             in"), así que prometía docs navegables y terminaba en un muro —
+             peor que no tenerlo. La API REST y su OpenAPI se describen en las
+             bullets; el backend es inspeccionable vía CÓDIGO. -->
+        <a href="https://animeshowdown.dev"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web en vivo de AnimeShowdown" height="28" /></a>
+        <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Código fuente de AnimeShowdown en GitHub" height="28" /></a>
       </p>
       <ul>
         <li><b>Ranking ELO</b> que reordena en tiempo real con cada votación y cierre de torneo.</li>
@@ -110,15 +112,18 @@
         <li><b>API REST</b> documentada con OpenAPI 3 + Swagger UI · desplegada en <b>Cloudflare Pages + Railway + Neon</b>.</li>
       </ul>
       <p>
-        <!-- 8 badges en 4+4 forzado (líneas de ~374 y ~262px): aguanta sin
-             re-romper desde contenedor ~400px. Vite y Framer Motion fuera:
+        <!-- 2+3+3 agrupado por capa (frontend / backend / infra). La línea
+             más larga (~255px) cabe en la celda del 68% incluso con el
+             contenedor a 530px (ventana de 900): el 4+4 anterior rompía ahí
+             en 3+1+4 (PostgreSQL huérfano). Vite y Framer Motion fuera:
              tooling/animación que diluía el posicionamiento backend. -->
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
+        <br />
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 3" />
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <br />
         <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+        <br />
         <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
         <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
         <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
@@ -172,8 +177,11 @@
     <td valign="top">
       <h3 align="center">⚙️ Backend</h3>
       <p align="center">
+        <!-- 2+1 forzado (igual que Bases de datos): sin <br/> el wrap era
+             greedy y PHP caía huérfano de forma no determinista a 530/398px -->
         <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
         <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <br />
         <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
       </p>
     </td>
@@ -205,8 +213,11 @@
     <td valign="top">
       <h3 align="center">🧰 Tooling</h3>
       <p align="center">
+        <!-- 2+1 forzado (simétrico con las otras tres celdas): sin <br/> el
+             wrap era greedy y GitHub caía huérfano a anchos intermedios -->
         <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
         <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        <br />
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
       </p>
     </td>
