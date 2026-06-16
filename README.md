@@ -4,10 +4,9 @@
   ───────────────────────────────────────────────────────────────────────────
   ZONAS QUE CAMBIAN MÁS A MENUDO  (busca el emoji ✏️):
    ✏️ HERO          → título, subtítulo y botones CTA
+   ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown · va primero)
    ✏️ PRODUCCIÓN    → bloque destacado (Canarias Convive · en producción real)
-   ✏️ PRINCIPAL     → bloque estrella (AnimeShowdown)
    ✏️ TRABAJANDO    → sección oculta (Fuerteventura, reactivar al salir a prod)
-   ✏️ APRENDIENDO   → 3 líneas con lo que estás trasteando ahora
    ✏️ DESTACADOS    → fila de 2 + línea extra (rotar cuando cambien tus repos top)
    ✏️ CIERRE        → frase final + CTA repetido
 ═══════════════════════════════════════════════════════════════════════════════
@@ -31,55 +30,6 @@
   <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
   <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
 </div>
-
----
-
-<!-- ─── 🚀 EN PRODUCCIÓN  ✏️ ──────────────────────────────────────────────── -->
-## 🚀 En producción
-
-> Código mío sirviendo en una web institucional real, ahora mismo.
-
-<table align="center">
-  <tr>
-    <td width="48%" valign="middle" align="center">
-      <a href="https://canariasconvive.com/mapa-interactivo/"><img src="images/canarias-convive.svg" alt="Mapa de agentes Canarias Convive en producción" width="100%" /></a>
-    </td>
-    <td width="52%" valign="middle">
-      <p>
-        <!-- 1+1 forzado: el par status+entidad re-rompía a anchos estrechos
-             (el badge de la entidad es el más ancho del README); con <br/>
-             queda estable en todo contenedor. -->
-        <img src="https://img.shields.io/badge/EN_PRODUCCIÓN-2EA043?style=for-the-badge&labelColor=1a1b27" alt="En producción" />
-        <br />
-        <img src="https://img.shields.io/badge/Universidad_de_La_Laguna-1a1b27?style=for-the-badge" alt="Universidad de La Laguna" />
-      </p>
-      <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
-      <p>
-        El mapa público que sirve <a href="https://canariasconvive.com/mapa-interactivo/"><b>canariasconvive.com</b></a> en producción. Una plataforma de la <b>Universidad de La Laguna</b> (Fundación General) depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
-      </p>
-      <p>
-        <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
-      </p>
-      <p>
-        <!-- 2+3 forzado (líneas ~194/~215px): Mapbox lidera y aguanta sin
-             re-romper hasta contenedor ~530px (ventanas de 900px) -->
-        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <br />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
-      </p>
-      <p>
-        <a href="https://canariasconvive.com/mapa-interactivo/"><b>🟢 Ver en producción</b></a>
-        &nbsp;·&nbsp;
-        <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>Demo</b></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/diegoalegil/canariasconvive-mapa"><b>Repo →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -136,8 +86,57 @@
   </tr>
 </table>
 
+---
+
+<!-- ─── 🚀 EN PRODUCCIÓN  ✏️ ──────────────────────────────────────────────── -->
+## 🚀 En producción
+
+> Código mío sirviendo en una web institucional real, ahora mismo.
+
+<table align="center">
+  <tr>
+    <td width="48%" valign="middle" align="center">
+      <a href="https://canariasconvive.com/mapa-interactivo/"><img src="images/canarias-convive.svg" alt="Mapa de agentes Canarias Convive en producción" width="100%" /></a>
+    </td>
+    <td width="52%" valign="middle">
+      <p>
+        <!-- 1+1 forzado: el par status+entidad re-rompía a anchos estrechos
+             (el badge de la entidad es el más ancho del README); con <br/>
+             queda estable en todo contenedor. -->
+        <img src="https://img.shields.io/badge/EN_PRODUCCIÓN-2EA043?style=for-the-badge&labelColor=1a1b27" alt="En producción" />
+        <br />
+        <img src="https://img.shields.io/badge/Universidad_de_La_Laguna-1a1b27?style=for-the-badge" alt="Universidad de La Laguna" />
+      </p>
+      <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
+      <p>
+        El mapa público que sirve <a href="https://canariasconvive.com/mapa-interactivo/"><b>canariasconvive.com</b></a> en producción. Una plataforma de la <b>Universidad de La Laguna</b> (Fundación General) depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
+      </p>
+      <p>
+        <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
+      </p>
+      <p>
+        <!-- 2+3 forzado (líneas ~194/~215px): Mapbox lidera y aguanta sin
+             re-romper hasta contenedor ~530px (ventanas de 900px) -->
+        <img src="https://img.shields.io/badge/Mapbox_GL_JS-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox GL JS" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <br />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
+      </p>
+      <p>
+        <a href="https://canariasconvive.com/mapa-interactivo/"><b>🟢 Ver en producción</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://diegoalegil.github.io/canariasconvive-mapa/"><b>Demo</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/diegoalegil/canariasconvive-mapa"><b>Repo →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <!-- ─── 🚧 ESTOY TRABAJANDO EN — sección oculta hasta que Fuerteventura entre en producción ──
-     Canarias Convive se promovió a la sección "🚀 En producción" (arriba del todo).
+     Canarias Convive se promovió a la sección "🚀 En producción" (la segunda sección).
      La tarjeta de Fuerteventura Protagonista (todavía prototipo, con datos placeholder)
      queda guardada aquí para reactivar la sección cuando el proyecto esté listo.
      PARA REACTIVAR: retira este wrapper de comentario, restaura el encabezado
@@ -225,19 +224,6 @@
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
       </p>
     </td>
-  </tr>
-</table>
-
----
-
-<!-- ─── APRENDIENDO  ✏️ ──────────────────────────────────────────────────── -->
-## 🌱 Aprendiendo ahora
-
-<table align="center">
-  <tr>
-    <td width="33%" align="center" valign="top">🐘 <b>PL/pgSQL avanzado</b><br/><sub>triggers, procedimientos, ACID</sub></td>
-    <td width="34%" align="center" valign="top">🌍 <b>Sistemas distribuidos</b><br/><sub>réplicas y consenso con CockroachDB</sub></td>
-    <td width="33%" align="center" valign="top">🔌 <b>APIs REST</b><br/><sub>arquitectura y diseño en Java / Node.js</sub></td>
   </tr>
 </table>
 
