@@ -25,7 +25,7 @@
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
 <div align="center">
   <h1>Hola, soy Diego 👋🏻</h1>
-  <p><b>Backend y bases de datos · código en producción para el Gobierno de Canarias · Tenerife 🇮🇨</b></p>
+  <p><b>Backend y bases de datos · código en producción para la Universidad de La Laguna · Tenerife 🇮🇨</b></p>
   <p><i>Estudiante de DAM. Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
   <br />
   <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
@@ -46,12 +46,16 @@
     </td>
     <td width="52%" valign="middle">
       <p>
+        <!-- 1+1 forzado: el par status+entidad re-rompía a anchos estrechos
+             (el badge de la entidad es el más ancho del README); con <br/>
+             queda estable en todo contenedor. -->
         <img src="https://img.shields.io/badge/EN_PRODUCCIÓN-2EA043?style=for-the-badge&labelColor=1a1b27" alt="En producción" />
-        <img src="https://img.shields.io/badge/Gobierno_de_Canarias_y_ULL-1a1b27?style=for-the-badge" alt="Gobierno de Canarias y ULL" />
+        <br />
+        <img src="https://img.shields.io/badge/Universidad_de_La_Laguna-1a1b27?style=for-the-badge" alt="Universidad de La Laguna" />
       </p>
       <h3>🗺️ Mapa de agentes — Canarias Convive</h3>
       <p>
-        El mapa público que sirve <a href="https://canariasconvive.com/mapa-interactivo/"><b>canariasconvive.com</b></a> en producción. Una plataforma del <b>Gobierno de Canarias + ULL</b> depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
+        El mapa público que sirve <a href="https://canariasconvive.com/mapa-interactivo/"><b>canariasconvive.com</b></a> en producción. Una plataforma de la <b>Universidad de La Laguna</b> (Fundación General) depende de este repositorio para mostrar al público las <b>234 entidades</b> del programa por todo el archipiélago.
       </p>
       <p>
         <b>Mapbox GL JS</b> con estilo <b>custom de Mapbox Studio</b> (paleta corporativa), <b>clustering</b> automático, <b>filtros por sector</b> y <b>vista 3D</b>. Datos servidos desde la API REST oficial. HTML/CSS/JS vanilla, sin frameworks.
