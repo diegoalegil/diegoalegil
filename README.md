@@ -14,11 +14,12 @@
 -->
 
 <!-- ─── BANNER ───────────────────────────────────────────────────────────── -->
-<!-- Compacto a propósito (560px): el primer viewport debe llegar hasta el
-     arranque de "En producción", que es lo que vende. Sin contadores de
-     followers/stars/visitas: números pequeños son prueba social negativa. -->
+<!-- width=100%: ocupa todo el ancho del contenedor del README (846px en
+     desktop, y escala solo en móvil/anchos intermedios sin distorsión).
+     Sin contadores de followers/stars/visitas: números pequeños son
+     prueba social negativa. -->
 <p align="center">
-  <img src="images/banner-tokyo.svg" alt="Diego Gil · banner Tokyo Night animado" width="560" />
+  <img src="images/banner-tokyo.svg" alt="Diego Gil · banner Tokyo Night animado" width="100%" />
 </p>
 
 <!-- ─── HERO  ✏️ ─────────────────────────────────────────────────────────── -->
