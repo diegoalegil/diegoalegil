@@ -25,7 +25,7 @@
 <div align="center">
   <h1>Hola, soy Diego 👋🏻</h1>
   <p><b>Backend y bases de datos · código en producción para la Universidad de La Laguna · Tenerife 🇮🇨</b></p>
-  <p><i>Estudiante de DAM. Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
+  <p><i>Estudiante de 2º de DAM. Me obsesiono con entender por qué algo funciona — o por qué se rompe a las 3 de la mañana.</i></p>
   <br />
   <a href="https://diegoalegil.github.io/"><img src="images/conoceme-badge.svg" alt="Conóceme" height="36" /></a>
   <a href="mailto:diegogildam@gmail.com"><img src="images/gmail-badge.svg" alt="Gmail" height="36" /></a>
@@ -249,41 +249,39 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🐘 postgresql-avanzado</h3>
+      <h3 align="center">🔗 tsunagi</h3>
       <p align="center">
-        PL/pgSQL real: <b>triggers, procedimientos almacenados, transacciones ACID</b> y estrategias de backup. Centrado en integridad y concurrencia.
+        <b>SDK en Java</b> que unifica AniList, TMDb y Jikan en un solo cliente. Releases versionadas <b>v1.0 → v1.3</b>, CI en cada push y extensión propia para VS Code.
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/PL%2FpgSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PL/pgSQL" />
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" />
+        <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" alt="Maven" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
       </p>
       <p align="center">
-        <a href="https://github.com/diegoalegil/postgresql-avanzado"><b>Ver código →</b></a>
+        <a href="https://github.com/diegoalegil/tsunagi"><b>Ver código →</b></a>
       </p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>También: <a href="https://github.com/diegoalegil/miniature-car-shop">🏎️ <b>miniature-car-shop</b></a> — tienda WooCommerce premium con diseño oscuro y módulos JS/PHP propios.</sub>
+  <sub>También: <a href="https://github.com/diegoalegil/canariasconvive-fichas-municipales">🗂️ <b>canariasconvive-fichas-municipales</b></a> — fichas demográficas de los 88 municipios canarios como web interactiva, prototipo para Canarias Convive · <a href="https://diegoalegil.github.io/canariasconvive-fichas-municipales/">demo</a>.</sub>
 </p>
 
 ---
 
 ## 📊 Stats
 
-<!-- 3 cards: stats + streak arriba (los datos que venden: commits, PRs,
-     racha), donut de lenguajes centrado debajo. Sin profile-details: era
-     redundante y aireaba "Joined 8 months ago". Sin snake: decoración.
-     Todas a height 195 (el CSS de GitHub nunca amplía una imagen por encima
+<!-- 2 cards en una fila: stats (commits, PRs, issues) + donut de lenguajes.
+     Sin streak: una racha corta es prueba social negativa, igual que los
+     contadores de followers. Sin profile-details: era redundante y aireaba
+     "Joined 8 months ago". Sin snake: decoración.
+     Ambas a height 195 (el CSS de GitHub nunca amplía una imagen por encima
      de su tamaño natural; el height solo sirve para REDUCIR):
-     fila 1 → stats 340×200 + streak 400×195 a 195 px = 331 + 400 ≈ 736 ≤ 846 -->
+     stats 340×200 a 195 px ≈ 331 + donut ≈ 300 → ~640 ≤ 846 -->
 <p align="center">
   <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/stats.svg" alt="Resumen de estadísticas de GitHub de Diego" />
-  <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/streak.svg" alt="Racha de contribuciones de Diego" />
-</p>
-
-<p align="center">
   <img height="195" src="https://raw.githubusercontent.com/diegoalegil/diegoalegil/output/repos-per-language.svg" alt="Repositorios por lenguaje de Diego" />
 </p>
 
@@ -311,8 +309,8 @@
   - Gráfico de actividad y tarjetas de stats los genera y publica en la
     rama output el workflow .github/workflows/activity-graph.yml ("Update
     profile assets") cada noche. Primera vez: Actions → Run workflow.
-    El workflow sigue publicando snake y profile-details aunque el README
-    ya no los muestra (recorte editorial: el README vende, no decora).
+    El workflow sigue publicando snake, profile-details y streak aunque el
+    README ya no los muestra (recorte editorial: el README vende, no decora).
   - Las imágenes viven en images/. Mantén cualquier nueva por debajo de
     ~500 KB (banner máx 1600 px de ancho, ilustraciones pequeñas a 800 px).
   - Acciones de terceros del workflow pineadas por SHA por seguridad de
