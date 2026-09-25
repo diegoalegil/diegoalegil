@@ -36,7 +36,7 @@
 <!-- ─── MI PROYECTO PRINCIPAL  ✏️ ───────────────────────────────────────── -->
 ## 🌟 Mi proyecto principal
 
-> El producto donde mejor se ve cómo trabajo: construido de cero, decisiones técnicas defendibles y publicado en vivo.
+> El producto donde mejor se ve cómo trabajo: construido de cero, decisiones técnicas defendibles y publicado en la web.
 
 <!-- ── ⚔️ AnimeShowdown — proyecto estrella ────────────────────────────── -->
 <table align="center">
@@ -47,7 +47,7 @@
     <td width="68%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
       <p>
-        <b>Galería de cartas coleccionables de personajes anime: 1086 cartas de 105 series y 52 especiales.</b> Gratis y sin cuentas ni servidor: web estática, colección en el navegador — construida de cero.
+        <b>Galería de cartas coleccionables de personajes anime: 1086 cartas de 105 series y 52 especiales.</b> Gratis y sin cuentas ni servidor: una web estática que guarda tu colección en el navegador.
       </p>
       <p>
         <!-- 2 CTAs, ambos públicos y verificados (200, sin login). La web
@@ -57,18 +57,18 @@
         <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Código fuente de AnimeShowdown en GitHub" height="28" /></a>
       </p>
       <ul>
-        <li><b>5 sobres al día</b> de 5 cartas, con ceremonia de apertura en una arena: la quinta tiene un 15% de ser especial.</li>
-        <li><b>Colección en localStorage</b>, sin cuentas ni backend, con álbum de vitrinas y exportable/importable como código.</li>
+        <li><b>5 sobres al día</b> de 5 cartas, con ceremonia de apertura en una arena: la quinta tiene un 15 % de probabilidad de ser especial.</li>
+        <li><b>Colección guardada en el navegador</b> (localStorage), con álbum de vitrinas y exportable/importable como código.</li>
         <li><b>Una página prerenderizada por carta</b>, con el nombre japonés en vertical, y arte y emblema propios para cada serie.</li>
-        <li><b>Rendimiento vigilado</b>: solo animaciones de transform/opacity y JS inicial ≤ 100 kB gzip, que el build hace cumplir · desplegada en <b>GitHub Pages</b> con <b>GitHub Actions</b>.</li>
+        <li><b>Rendimiento vigilado</b>: solo animaciones de transform/opacity y JS inicial ≤ 100 kB gzip (sin el catálogo de cartas), que el build hace cumplir · desplegada en <b>GitHub Pages</b> con <b>GitHub Actions</b>.</li>
       </ul>
       <p>
         <!-- 3+2 agrupado por capa (frontend / despliegue). La línea más
-             larga (React+Vite+Tailwind, ~225px) cabe en la celda del 68%
+             larga (React+Vite+Tailwind, ~237px) cabe en la celda del 68%
              incluso con el contenedor a 530px (ventana de 900). Sin backend
              ni BBDD: la web es estática y se publica sola desde el repo. -->
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 8" />
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
         <br />
         <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
