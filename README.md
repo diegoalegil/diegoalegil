@@ -36,51 +36,43 @@
 <!-- ─── MI PROYECTO PRINCIPAL  ✏️ ───────────────────────────────────────── -->
 ## 🌟 Mi proyecto principal
 
-> El producto donde mejor se ve cómo trabajo: full-stack de cero, decisiones técnicas defendibles y desplegado en producción real.
+> El producto donde mejor se ve cómo trabajo: construido de cero, decisiones técnicas defendibles y publicado en vivo.
 
 <!-- ── ⚔️ AnimeShowdown — proyecto estrella ────────────────────────────── -->
 <table align="center">
   <tr>
     <td width="32%" valign="top" align="center">
-      <a href="https://animeshowdown.dev"><img src="images/AnimeShowdown-banner.svg" alt="AnimeShowdown — banner animado" width="100%" /></a>
+      <a href="https://diegoalegil.github.io/AnimeShowdown/"><img src="images/AnimeShowdown-banner.svg" alt="AnimeShowdown — banner animado" width="100%" /></a>
     </td>
     <td width="68%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
       <p>
-        <b>Plataforma full-stack de duelos, torneos y ranking ELO de personajes anime.</b> Frontend, API, BBDD, auth y despliegue en producción real — construido de cero.
+        <b>Galería de cartas coleccionables de personajes anime: 1086 cartas de 105 series y 52 especiales.</b> Gratis y sin cuentas ni servidor: web estática, colección en el navegador — construida de cero.
       </p>
       <p>
-        <!-- 2 CTAs, ambos públicos y verificados (200, sin muro de auth). Se
-             retiró el botón de Swagger/API: /swagger-ui y /v3/api-docs están
-             tras el login OAuth de Spring Security (302 → /login "Please sign
-             in"), así que prometía docs navegables y terminaba en un muro —
-             peor que no tenerlo. La API REST y su OpenAPI se describen en las
-             bullets; el backend es inspeccionable vía CÓDIGO. -->
-        <a href="https://animeshowdown.dev"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web en vivo de AnimeShowdown" height="28" /></a>
+        <!-- 2 CTAs, ambos públicos y verificados (200, sin login). La web
+             vive en GitHub Pages (diegoalegil.github.io/AnimeShowdown); el
+             dominio animeshowdown.dev ya no sirve esta versión, no enlazarlo. -->
+        <a href="https://diegoalegil.github.io/AnimeShowdown/"><img src="https://img.shields.io/badge/🌐_WEB_LIVE-CC0808?style=for-the-badge&labelColor=CC0808" alt="Web en vivo de AnimeShowdown" height="28" /></a>
         <a href="https://github.com/diegoalegil/AnimeShowdown"><img src="https://img.shields.io/badge/CÓDIGO-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Código fuente de AnimeShowdown en GitHub" height="28" /></a>
       </p>
       <ul>
-        <li><b>Ranking ELO</b> que reordena en tiempo real con cada votación y cierre de torneo.</li>
-        <li><b>Brackets visuales</b> SVG y resolución transaccional de enfrentamientos por conteo de votos.</li>
-        <li><b>Auth completa</b>: JWT con refresh por cookie httpOnly, 2FA TOTP y emails transaccionales.</li>
-        <li><b>API REST</b> documentada con OpenAPI 3 + Swagger UI · desplegada en <b>Cloudflare Pages + Railway + Neon</b>.</li>
+        <li><b>5 sobres al día</b> de 5 cartas, con ceremonia de apertura en una arena: la quinta tiene un 15% de ser especial.</li>
+        <li><b>Colección en localStorage</b>, sin cuentas ni backend, con álbum de vitrinas y exportable/importable como código.</li>
+        <li><b>Una página prerenderizada por carta</b>, con el nombre japonés en vertical, y arte y emblema propios para cada serie.</li>
+        <li><b>Rendimiento vigilado</b>: solo animaciones de transform/opacity y JS inicial ≤ 100 kB gzip, que el build hace cumplir · desplegada en <b>GitHub Pages</b> con <b>GitHub Actions</b>.</li>
       </ul>
       <p>
-        <!-- 2+3+3 agrupado por capa (frontend / backend / infra). La línea
-             más larga (~255px) cabe en la celda del 68% incluso con el
-             contenedor a 530px (ventana de 900): el 4+4 anterior rompía ahí
-             en 3+1+4 (PostgreSQL huérfano). Vite y Framer Motion fuera:
-             tooling/animación que diluía el posicionamiento backend. -->
+        <!-- 3+2 agrupado por capa (frontend / despliegue). La línea más
+             larga (React+Vite+Tailwind, ~225px) cabe en la celda del 68%
+             incluso con el contenedor a 530px (ventana de 900). Sin backend
+             ni BBDD: la web es estática y se publica sola desde el repo. -->
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
         <br />
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 3" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-        <br />
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-        <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
-        <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
       </p>
     </td>
   </tr>
