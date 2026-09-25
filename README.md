@@ -47,7 +47,7 @@
     <td width="68%" valign="top">
       <h3>⚔️ AnimeShowdown</h3>
       <p>
-        <b>Galería de cartas coleccionables de personajes anime: 1086 cartas de 105 series y 52 especiales.</b> Gratis y sin cuentas ni servidor: una web estática que guarda tu colección en el navegador.
+        <b>Galería de cartas coleccionables de personajes anime: más de mil cartas de 105 series, con especiales.</b> Gratis y sin cuentas ni servidor: una web estática que guarda tu colección en el navegador.
       </p>
       <p>
         <!-- 2 CTAs, ambos públicos y verificados (200, sin login). La web
